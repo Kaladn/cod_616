@@ -24,10 +24,10 @@ Generated from `WORKSPACE INTROSPECTION REPORT-1.md` (Dec 14, 2025)
    - Tests: Added `test_fusion_audio.py` to validate fused vector shape and audio slice presence.
    - Files: `modules/fusion_616_engine.py`, `cod_live_runner.py`, `test_fusion_audio.py`
 
-4. **Save YOLO visualizations** (not-started)
-   - Problem: `YOLODetector.visualize_detections()` outputs images but COD616Runner never saves them.
-   - Next step: Add an opt-in config to save visualization images per N frames and tests for disk I/O.
-   - Files: `modules/yolo_detector.py`, `cod_live_runner.py`
+4. **Save YOLO visualizations** (removed - YOLO stub)
+   - Change: YOLO removed from active inference; `modules/yolo_detector.py` now provides a non-inferential stub that preserves API and outputs.
+   - Impact: Visualization function exists but is a no-op; there are no YOLO artifacts written to disk.
+   - Files affected: `modules/yolo_detector.py`, `cod_live_runner.py`, `test_yolo_performance.py`
 
 5. **Call visualize_grid in runner** (not-started)
    - Problem: `ScreenGridMapper.visualize_grid()` is unused.
