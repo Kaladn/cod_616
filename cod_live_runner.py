@@ -217,10 +217,11 @@ class COD616Runner:
                 # Use silence profile when no block available (keeps consistent dims)
                 audio_resonance = self.audio_resonance_state._get_silence_state()
 
-        # Fuse (audio not yet part of Fusion616Engine.fuse signature; audio flows to fingerprint builder)
+        # Fuse (include audio_resonance)
         fusion_result = self.fusion_engine.fuse(
             screen_features=screen_features,
-            yolo_features=yolo_features,
+            visual_resonance=screen_features_dict.get('visual_resonance', {}),
+            audio_resonance=audio_resonance,
             gamepad_features=gamepad_features,
             network_features=network_features
         )
