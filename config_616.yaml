@@ -1,0 +1,157 @@
+# COD 616 Configuration
+# CompuCog Multimodal Game Intelligence Engine
+
+# Active profile: "play_nice", "forensic", or "overwatch"
+active_profile: "play_nice"
+
+# Profile definitions
+profiles:
+  play_nice:
+    # Balanced: playable COD + reliable telemetry
+    screen:
+      capture_resolution: [1280, 720]   # Downscale from native for speed
+      capture_fps: 20                   # Target capture rate
+      grid_size: [100, 100]
+      block_size: [10, 10]
+      monitor: 0
+    
+    yolo:
+      enabled: false
+      model: "yolov8n.pt"
+      input_resolution: [640, 360]      # Further downscale for YOLO (3.9ms)
+      confidence: 0.5
+      iou: 0.45
+      device: "cuda"
+      skip_frames: 4                    # Run YOLO every 4th frame (5 FPS effective)
+      classes: null
+    
+    gamepad:
+      enabled: true
+      poll_rate_hz: 120
+      deadzone: 0.1
+    
+    network:
+      enabled: true
+      ping_interval_ms: 50
+      target_host: "8.8.8.8"
+      timeout_ms: 1000
+    
+    fusion_616:
+      anchor_frequencies: [6.0, 1.0, 6.0]
+      window_size_ms: 1000
+      overlap_ms: 500
+    
+    detection:
+      manipulation_threshold: 0.7
+      anomaly_z_score: 2.5
+
+    audio:
+      enabled: false
+      sample_rate: 48000
+      block_duration: 0.5
+  
+  forensic:
+    # Evidence collection: max data quality, short sessions
+    screen:
+      capture_resolution: [960, 540]    # Lower for speed
+      capture_fps: 15
+      grid_size: [100, 100]
+      block_size: [10, 10]
+      monitor: 0
+    
+    yolo:
+      enabled: false
+      model: "yolov8n.pt"
+      input_resolution: [960, 540]      # Higher detail (4.2ms)
+      confidence: 0.5
+      iou: 0.45
+      device: "cuda"
+      skip_frames: 2                    # Run YOLO every 2nd frame (7.5 FPS effective)
+      classes: null
+    
+    gamepad:
+      enabled: true
+      poll_rate_hz: 120
+      deadzone: 0.1
+    
+    network:
+      enabled: true
+      ping_interval_ms: 50
+      target_host: "8.8.8.8"
+      timeout_ms: 1000
+    
+    fusion_616:
+      anchor_frequencies: [6.0, 1.0, 6.0]
+      window_size_ms: 1000
+      overlap_ms: 500
+    
+    detection:
+      manipulation_threshold: 0.65      # More sensitive
+      anomaly_z_score: 2.0
+
+    audio:
+      enabled: false
+      sample_rate: 48000
+      block_duration: 0.5
+  
+  overwatch:
+    # Full-duty watchdog: continuous monitoring
+    screen:
+      capture_resolution: [1280, 720]
+      capture_fps: 10                   # Conservative for long sessions
+      grid_size: [100, 100]
+      block_size: [10, 10]
+      monitor: 0
+    
+    yolo:
+      enabled: false
+      model: "yolov8n.pt"
+      input_resolution: [1280, 720]     # Max detail (4.1ms)
+      confidence: 0.5
+      iou: 0.45
+      device: "cuda"
+      skip_frames: 1                    # Run YOLO every frame (10 FPS)
+      classes: null
+    
+    gamepad:
+      enabled: true
+      poll_rate_hz: 120
+      deadzone: 0.1
+    
+    network:
+      enabled: true
+      ping_interval_ms: 50
+      target_host: "8.8.8.8"
+      timeout_ms: 1000
+    
+    fusion_616:
+      anchor_frequencies: [6.0, 1.0, 6.0]
+      window_size_ms: 1000
+      overlap_ms: 500
+    
+    detection:
+      manipulation_threshold: 0.75      # Less sensitive for fewer false positives
+      anomaly_z_score: 3.0
+
+    audio:
+      enabled: false
+      sample_rate: 48000
+      block_duration: 0.5
+
+# Reflex SDK (future feature)
+reflex:
+  enabled: false
+
+# Output settings (shared across profiles)
+output:
+  save_telemetry: true
+  telemetry_dir: "cod_616/data"
+  save_screenshots: false
+  save_interval_sec: 10
+
+# Logging (shared across profiles)
+logging:
+  level: "INFO"
+  console: true
+  file: true
+  log_dir: "cod_616/logs"

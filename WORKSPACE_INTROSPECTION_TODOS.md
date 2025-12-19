@@ -12,10 +12,11 @@ Generated from `WORKSPACE INTROSPECTION REPORT-1.md` (Dec 14, 2025)
    - Tests: Added `test_match_fingerprint_builder.py` covering bounded sampling and build correctness.
    - Files: `match_fingerprint_builder.py`, `test_match_fingerprint_builder.py`
 
-2. **Integrate audio capture** (not-started)
-   - Problem: `AudioResonanceState` exists but lacks an audio input module and dependencies (pyaudio/sounddevice).
-   - Next step: Add an audio capture module, config flags, and a graceful fallback when no audio device present.
-   - Files: `modules/audio_*`, `cod_live_runner.py`
+2. **Integrate audio capture** (completed)
+   - Change: Added `modules/audio_capture.py` which uses `sounddevice` when available and falls back to a stub otherwise.
+   - Integration: `COD616Runner` now initializes `AudioCapture` and `AudioResonanceState` (configurable per-profile) and includes `audio_resonance` in per-frame telemetry and into the fingerprint builder.
+   - Tests: Added `test_audio_integration.py` with unit tests for capture stub and audio feature extraction.
+   - Files: `modules/audio_capture.py`, `modules/audio_resonance_state.py`, `cod_live_runner.py`, `test_audio_integration.py`, `config_616.yaml`
 
 3. **Add audio to fusion** (not-started)
    - Problem: `Fusion616Engine.fuse()` doesn't accept audio or include audio dims in fused vector.
