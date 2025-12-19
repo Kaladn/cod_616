@@ -18,10 +18,11 @@ Generated from `WORKSPACE INTROSPECTION REPORT-1.md` (Dec 14, 2025)
    - Tests: Added `test_audio_integration.py` with unit tests for capture stub and audio feature extraction.
    - Files: `modules/audio_capture.py`, `modules/audio_resonance_state.py`, `cod_live_runner.py`, `test_audio_integration.py`, `config_616.yaml`
 
-3. **Add audio to fusion** (not-started)
-   - Problem: `Fusion616Engine.fuse()` doesn't accept audio or include audio dims in fused vector.
-   - Next step: Extend `fuse()` signature, update dimensional assertions, and include audio in match fingerprint.
-   - Files: `modules/fusion_616_engine.py`, `match_fingerprint_builder.py`
+3. **Add audio to fusion** (completed)
+   - Change: `Fusion616Engine.fuse()` now accepts `audio_resonance` (20 dims) and includes it in the `fused_vector`.
+   - Integration: `COD616Runner` now passes `audio_resonance` into `fuse()`; audio contributes a small amount to resonance amplitude calculations.
+   - Tests: Added `test_fusion_audio.py` to validate fused vector shape and audio slice presence.
+   - Files: `modules/fusion_616_engine.py`, `cod_live_runner.py`, `test_fusion_audio.py`
 
 4. **Save YOLO visualizations** (not-started)
    - Problem: `YOLODetector.visualize_detections()` outputs images but COD616Runner never saves them.
