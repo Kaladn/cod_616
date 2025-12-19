@@ -123,6 +123,15 @@ class CognitiveHarness:
                 print("  ✓ ActivityLogger started and registered as source 'activity'")
             else:
                 print("  - ActivityLogger not enabled by config or env")
+
+            # Input logger integration (optional)
+            from loggers.input_integration import integrate_input_logger
+
+            self.input_service = integrate_input_logger(self.event_mgr, self.config)
+            if self.input_service is not None:
+                print("  ✓ InputLogger started and registered as source 'input'")
+            else:
+                print("  - InputLogger not enabled by config or env")
         else:
             self.event_mgr = None
             print("\n[Layer 2] EventManager disabled (--no-events)")
@@ -547,6 +556,16 @@ class CognitiveHarness:
                 print("  ✓ ActivityLogger stopped")
         except Exception as e:
             print(f"    ❌ ActivityLogger stop error: {e}")
+            import traceback
+            traceback.print_exc()
+
+        # Stop input logger if started
+        try:
+            if getattr(self, 'input_service', None) is not None:
+                self.input_service.stop()
+                print("  ✓ InputLogger stopped")
+        except Exception as e:
+            print(f"    ❌ InputLogger stop error: {e}")
             import traceback
             traceback.print_exc()
         
