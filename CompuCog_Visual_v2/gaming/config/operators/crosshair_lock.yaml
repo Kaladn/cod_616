@@ -1,0 +1,22 @@
+# Crosshair Lock Operator Configuration
+# Detects aim manipulation via crosshair-to-enemy physics
+
+operators:
+  crosshair_lock:
+    # Crosshair region (percentage of screen)
+    crosshair_radius: 0.05  # 5% center circle
+    
+    # Enemy detection thresholds (ARC palette values)
+    enemy_palette_min: 5
+    enemy_palette_max: 9
+    
+    # Hit marker detection
+    hit_marker_palette: 9
+    
+    # Aim resistance detection
+    velocity_window: 5  # frames to analyze for velocity changes
+    aim_resistance_threshold: 0.3  # threshold for abnormal slowdown
+    
+    # Hit efficiency thresholds
+    hit_efficiency_threshold: 0.15  # hit_markers / on_target_frames
+    min_on_target_frames: 5  # minimum frames to calculate efficiency

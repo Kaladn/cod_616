@@ -1,0 +1,85 @@
+# Recognition Field Configuration
+# COD 616 Telemetry Engine - Phase 7
+
+# Baseline configuration
+baseline:
+  min_matches: 5  # Minimum matches required for baseline
+  std_floor: 1.0e-6  # Floor for std to avoid division by zero
+  
+# Z-score configuration
+z_scores:
+  block_weights:
+    visual: 0.25
+    gamepad: 0.20
+    network: 0.20
+    crossmodal: 0.25
+    meta: 0.10
+
+# Suspect channel configuration
+channels:
+  aim_assist:
+    dims: [19, 23, 256, 257, 258, 259, 100, 101]
+    threshold_low: 0.2
+    threshold_medium: 0.4
+    threshold_high: 0.6
+    threshold_critical: 0.8
+    
+  recoil_compensation:
+    dims: [10, 14, 8, 354]
+    threshold_low: 0.2
+    threshold_medium: 0.4
+    threshold_high: 0.6
+    threshold_critical: 0.8
+    
+  eomm_lag:
+    dims: [14, 224, 228, 232, 343, 355]
+    threshold_low: 0.2
+    threshold_medium: 0.4
+    threshold_high: 0.6
+    threshold_critical: 0.8
+    
+  network_priority_bias:
+    dims: [224, 225, 226, 227, 228, 229, 230, 231, 280, 281, 282, 283, 356]
+    threshold_low: 0.2
+    threshold_medium: 0.4
+    threshold_high: 0.6
+    threshold_critical: 0.8
+
+# Sigmoid parameters for channel scoring
+sigmoid:
+  scale: 1.5  # Steepness
+  center: 1.5  # Center point (z-score)
+
+# Verdict thresholds
+verdict:
+  normal:
+    max_global_z: 1.5
+    max_high_channels: 0
+    confidence: 0.90
+    
+  suspicious:
+    max_global_z: 2.5
+    max_high_channels: 1
+    confidence: 0.60
+    
+  manipulated_likely:
+    max_global_z: 3.5
+    min_high_channels: 2
+    confidence: 0.75
+    
+  manipulated_certain:
+    min_global_z: 3.5
+    min_critical_channels: 1
+    confidence: 0.95
+
+# Output configuration
+output:
+  save_reports: true
+  reports_dir: "recognition/reports"
+  pretty_print: true
+  
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  show_dim_contributions: true
+  max_explanation_lines: 10
