@@ -1,0 +1,19 @@
+# Death Event Operator Configuration
+# Detects insta-melt and abnormal death patterns
+
+operators:
+  death_event:
+    # Damage indicator detection
+    damage_indicator_palette_min: 7
+    damage_indicator_palette_max: 8
+    edge_width: 0.1  # 10% edge region for damage indicators
+    
+    # Death screen detection
+    death_screen_palette: 9
+    
+    # TTD thresholds (milliseconds)
+    normal_ttd_min: 15  # minimum normal TTD (below = insta-melt)
+    instamelt_threshold: 15  # frames (~500ms at 30fps)
+    
+    # Death pattern analysis
+    min_damage_frames: 2  # minimum frames to analyze death sequence

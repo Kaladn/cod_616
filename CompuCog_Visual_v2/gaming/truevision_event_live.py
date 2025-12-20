@@ -132,6 +132,25 @@ class CognitiveHarness:
                 print("  ✓ InputLogger started and registered as source 'input'")
             else:
                 print("  - InputLogger not enabled by config or env")
+
+            # Process logger integration (optional)
+            from loggers.process_integration import integrate_process_logger
+
+            self.process_service = integrate_process_logger(self.event_mgr, self.config)
+            if self.process_service is not None:
+                print("  ✓ ProcessLogger started and registered as source 'process'")
+            else:
+                print("  - ProcessLogger not enabled by config or env")
+
+            # Network logger integration (optional)
+            from loggers.network_integration import integrate_network_logger
+
+            self.network_service = integrate_network_logger(self.event_mgr, self.config)
+            if self.network_service is not None:
+                print("  ✓ NetworkLogger started and registered as source 'network'")
+            else:
+                print("  - NetworkLogger not enabled by config or env")
+
         else:
             self.event_mgr = None
             print("\n[Layer 2] EventManager disabled (--no-events)")
@@ -566,6 +585,26 @@ class CognitiveHarness:
                 print("  ✓ InputLogger stopped")
         except Exception as e:
             print(f"    ❌ InputLogger stop error: {e}")
+            import traceback
+            traceback.print_exc()
+
+        # Stop process logger if started
+        try:
+            if getattr(self, 'process_service', None) is not None:
+                self.process_service.stop()
+                print("  ✓ ProcessLogger stopped")
+        except Exception as e:
+            print(f"    ❌ ProcessLogger stop error: {e}")
+            import traceback
+            traceback.print_exc()
+
+        # Stop network logger if started
+        try:
+            if getattr(self, 'network_service', None) is not None:
+                self.network_service.stop()
+                print("  ✓ NetworkLogger stopped")
+        except Exception as e:
+            print(f"    ❌ NetworkLogger stop error: {e}")
             import traceback
             traceback.print_exc()
         

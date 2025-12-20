@@ -1,0 +1,6098 @@
+[
+  {
+    "timestamp": 1764150530.330306,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      0.5888014435768127,
+      0.8082777261734009,
+      0.10473675280809402,
+      0.9944999814033508,
+      0.5888014435768127,
+      0.8082777261734009
+    ],
+    "screen_energy": 0.0,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 27.0
+  },
+  {
+    "timestamp": 1764150530.4231937,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      -0.8347349166870117,
+      -0.550652027130127,
+      0.635153591632843,
+      0.7723858952522278,
+      -0.8347349166870117,
+      -0.550652027130127
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 25.0
+  },
+  {
+    "timestamp": 1764150530.511218,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      0.9278833270072937,
+      0.37287068367004395,
+      0.9474964141845703,
+      0.31976640224456787,
+      0.9278833270072937,
+      0.37287068367004395
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150530.8421986,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      0.8842009902000427,
+      0.4671066403388977,
+      -0.17981335520744324,
+      -0.9837007522583008,
+      0.8842009902000427,
+      0.4671066403388977
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150530.9401095,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      -0.9969938397407532,
+      0.07748080044984818,
+      -0.7161877155303955,
+      -0.6979076862335205,
+      -0.9969938397407532,
+      0.07748080044984818
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 32.0
+  },
+  {
+    "timestamp": 1764150531.0297265,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      0.9546787738800049,
+      -0.29763805866241455,
+      -0.9777318239212036,
+      -0.20985832810401917,
+      0.9546787738800049,
+      -0.29763805866241455
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150531.121701,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      -0.8151400089263916,
+      0.5792640447616577,
+      -0.9342058300971985,
+      0.35673436522483826,
+      -0.8151400089263916,
+      0.5792640447616577
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150531.2172048,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      0.4810284376144409,
+      -0.8767049908638,
+      -0.5706007480621338,
+      0.8212276101112366,
+      0.4810284376144409,
+      -0.8767049908638
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150531.3081253,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      -0.21334227919578552,
+      0.976977527141571,
+      -0.035825517028570175,
+      0.999358057975769,
+      -0.21334227919578552,
+      0.976977527141571
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150531.3970969,
+    "manipulation_score": 0.0,
+    "resonance_phases": [
+      0.005958672612905502,
+      -0.9999822378158569,
+      0.49913907051086426,
+      0.8665218949317932,
+      0.005958672612905502,
+      -0.9999822378158569
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150531.489399,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.3339569568634033,
+      0.9425883293151855,
+      0.8929905891418457,
+      0.45007529854774475,
+      0.3339569568634033,
+      0.9425883293151855
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150531.5833166,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6909610629081726,
+      -0.7228919863700867,
+      0.9919291138648987,
+      -0.12679345905780792,
+      -0.6909610629081726,
+      -0.7228919863700867
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150531.675228,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8754004836082458,
+      0.4833983778953552,
+      0.7639983296394348,
+      -0.6452182531356812,
+      0.8754004836082458,
+      0.4833983778953552
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150531.7638068,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9591245055198669,
+      -0.2829844653606415,
+      0.3046940565109253,
+      -0.9524502754211426,
+      -0.9591245055198669,
+      -0.2829844653606415
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150531.8537357,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9995777010917664,
+      0.02905849553644657,
+      -0.25413694977760315,
+      -0.9671682715415955,
+      0.9995777010917664,
+      0.02905849553644657
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150531.9503732,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9012042880058289,
+      0.43339452147483826,
+      -0.7579125165939331,
+      -0.6523561477661133,
+      -0.9012042880058289,
+      0.43339452147483826
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150532.039449,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7997662425041199,
+      -0.6003115177154541,
+      -0.9880909323692322,
+      -0.15387098491191864,
+      0.7997662425041199,
+      -0.6003115177154541
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150532.1286573,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6483945250511169,
+      0.761304497718811,
+      -0.9187003374099731,
+      0.3949553072452545,
+      -0.6483945250511169,
+      0.761304497718811
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150532.2164137,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.49545902013778687,
+      -0.8686313033103943,
+      -0.5728619694709778,
+      0.8196518421173096,
+      0.49545902013778687,
+      -0.8686313033103943
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150532.3102329,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.11434885859489441,
+      0.9934406280517578,
+      -0.01909932866692543,
+      0.9998176097869873,
+      -0.11434885859489441,
+      0.9934406280517578
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150532.4012325,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.17859810590744019,
+      -0.9839221239089966,
+      0.5256891250610352,
+      0.8506767749786377,
+      -0.17859810590744019,
+      -0.9839221239089966
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150532.4925556,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.44632774591445923,
+      0.8948695659637451,
+      0.9019683003425598,
+      0.4318022131919861,
+      0.44632774591445923,
+      0.8948695659637451
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150532.583124,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6623200178146362,
+      -0.7492210268974304,
+      0.9927304983139038,
+      -0.1203586682677269,
+      -0.6623200178146362,
+      -0.7492210268974304
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150532.6781754,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9271459579467773,
+      0.3747003674507141,
+      0.7508916258811951,
+      -0.6604254245758057,
+      0.9271459579467773,
+      0.3747003674507141
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150532.7682483,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9885655045509338,
+      -0.1507921665906906,
+      0.28310349583625793,
+      -0.9590893387794495,
+      -0.9885655045509338,
+      -0.1507921665906906
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150532.859749,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9825003147125244,
+      -0.18626104295253754,
+      -0.28884902596473694,
+      -0.9573746919631958,
+      0.9825003147125244,
+      -0.18626104295253754
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150532.9503663,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9051470756530762,
+      0.4250985085964203,
+      -0.7569124698638916,
+      -0.6535162329673767,
+      -0.9051470756530762,
+      0.4250985085964203
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150533.043745,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6696448922157288,
+      -0.7426815032958984,
+      -0.9925320148468018,
+      -0.12198459357023239,
+      0.6696448922157288,
+      -0.7426815032958984
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150533.1341517,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.44780680537223816,
+      0.8941303491592407,
+      -0.9020879864692688,
+      0.4315522313117981,
+      -0.44780680537223816,
+      0.8941303491592407
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150533.2282107,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.09392715245485306,
+      -0.9955790638923645,
+      -0.5135160684585571,
+      0.8580799698829651,
+      0.09392715245485306,
+      -0.9955790638923645
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150533.316264,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.0920996144413948,
+      0.9957497715950012,
+      0.015370240435004234,
+      0.9998818635940552,
+      0.0920996144413948,
+      0.9957497715950012
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150533.4097881,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.48037272691726685,
+      -0.8770644664764404,
+      0.5704972147941589,
+      0.8212995529174805,
+      -0.48037272691726685,
+      -0.8770644664764404
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150533.5014913,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7173495888710022,
+      0.696713387966156,
+      0.9248071312904358,
+      0.3804362118244171,
+      0.7173495888710022,
+      0.696713387966156
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150533.59179,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8736372590065002,
+      -0.48657774925231934,
+      0.9843580722808838,
+      -0.17617930471897125,
+      -0.8736372590065002,
+      -0.48657774925231934
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150533.6813972,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9619268774986267,
+      0.27330684661865234,
+      0.7389680743217468,
+      -0.6737405061721802,
+      0.9619268774986267,
+      0.27330684661865234
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150533.7743695,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9969176054000854,
+      0.07845581322908401,
+      0.24615484476089478,
+      -0.9692305326461792,
+      -0.9969176054000854,
+      0.07845581322908401
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150533.870952,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8196470141410828,
+      -0.5728688836097717,
+      -0.35551536083221436,
+      -0.9346704483032227,
+      0.8196470141410828,
+      -0.5728688836097717
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 26.0
+  },
+  {
+    "timestamp": 1764150533.9620793,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6331756711006165,
+      0.7740081548690796,
+      -0.8033632040023804,
+      -0.5954893231391907,
+      -0.6331756711006165,
+      0.7740081548690796
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150534.0512996,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4550730288028717,
+      -0.890454113483429,
+      -0.9969013333320618,
+      -0.07866209000349045,
+      0.4550730288028717,
+      -0.890454113483429
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150534.1484125,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.06013625115156174,
+      0.99819016456604,
+      -0.8609680533409119,
+      0.5086590051651001,
+      0.06013625115156174,
+      0.99819016456604
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150534.2414012,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.3926507830619812,
+      -0.9196876287460327,
+      -0.44067254662513733,
+      0.8976679444313049,
+      -0.3926507830619812,
+      -0.9196876287460327
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150534.3337872,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6881099939346313,
+      0.725606381893158,
+      0.1261422038078308,
+      0.9920121431350708,
+      0.6881099939346313,
+      0.725606381893158
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150534.422773,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8181073665618896,
+      -0.575065553188324,
+      0.6313424706459045,
+      0.7755041718482971,
+      -0.8181073665618896,
+      -0.575065553188324
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150534.519364,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.995649516582489,
+      0.09317722171545029,
+      0.961783766746521,
+      0.2738102078437805,
+      0.995649516582489,
+      0.09317722171545029
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150534.6134672,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9560077786445618,
+      0.2933412194252014,
+      0.9518998861312866,
+      -0.30640915036201477,
+      -0.9560077786445618,
+      0.2933412194252014
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150534.7065635,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7855483293533325,
+      -0.6188002824783325,
+      0.624269962310791,
+      -0.7812086939811707,
+      0.7855483293533325,
+      -0.6188002824783325
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150534.7994857,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5068888068199158,
+      0.8620114922523499,
+      0.0884803980588913,
+      -0.9960778951644897,
+      -0.5068888068199158,
+      0.8620114922523499
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 25.0
+  },
+  {
+    "timestamp": 1764150534.9021869,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.2264668196439743,
+      -0.9740188717842102,
+      -0.5326024889945984,
+      -0.8463655114173889,
+      -0.2264668196439743,
+      -0.9740188717842102
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 25.0
+  },
+  {
+    "timestamp": 1764150534.9971914,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6059654951095581,
+      0.7954909205436707,
+      -0.9150745868682861,
+      -0.40328457951545715,
+      0.6059654951095581,
+      0.7954909205436707
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150535.0874827,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7879050374031067,
+      -0.6157968044281006,
+      -0.9885861873626709,
+      0.15065643191337585,
+      -0.7879050374031067,
+      -0.6157968044281006
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150535.1864095,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9957743883132935,
+      0.09183308482170105,
+      -0.7178618907928467,
+      0.6961855292320251,
+      0.9957743883132935,
+      0.09183308482170105
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 28.0
+  },
+  {
+    "timestamp": 1764150535.2857983,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8666884303092957,
+      0.4988498091697693,
+      -0.17386679351329803,
+      0.9847691655158997,
+      -0.8666884303092957,
+      0.4988498091697693
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150535.3798983,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6025104522705078,
+      -0.7981110215187073,
+      0.4039437770843506,
+      0.9147838354110718,
+      0.6025104522705078,
+      -0.7981110215187073
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150535.47381,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.21604344248771667,
+      0.9763837456703186,
+      0.8473118543624878,
+      0.5310956835746765,
+      -0.21604344248771667,
+      0.9763837456703186
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150535.5667832,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.11839102953672409,
+      -0.9929670691490173,
+      0.9998044371604919,
+      -0.019775932654738426,
+      -0.11839102953672409,
+      -0.9929670691490173
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150535.663894,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6128526329994202,
+      0.7901972532272339,
+      0.8059356808662415,
+      -0.5920031070709229,
+      0.6128526329994202,
+      0.7901972532272339
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150535.7563584,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8283922672271729,
+      -0.5601483583450317,
+      0.3531113266944885,
+      -0.9355813264846802,
+      -0.8283922672271729,
+      -0.5601483583450317
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150535.8473077,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9582011103630066,
+      0.286095529794693,
+      -0.21182312071323395,
+      -0.9773080348968506,
+      0.9582011103630066,
+      0.286095529794693
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150535.9372766,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9990019798278809,
+      -0.04466572031378746,
+      -0.7018207907676697,
+      -0.712353527545929,
+      -0.9990019798278809,
+      -0.04466572031378746
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.0373855,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.844306230545044,
+      -0.5358609557151794,
+      -0.9859970211982727,
+      -0.16676300764083862,
+      0.844306230545044,
+      -0.5358609557151794
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.1284573,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6533305644989014,
+      0.7570727467536926,
+      -0.919127881526947,
+      0.3939593434333801,
+      -0.6533305644989014,
+      0.7570727467536926
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.21814,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.44197407364845276,
+      -0.897027850151062,
+      -0.5645592212677002,
+      0.8253925442695618,
+      0.44197407364845276,
+      -0.897027850151062
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.3105023,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.11062376201152802,
+      0.9938623309135437,
+      -0.01847478374838829,
+      0.9998293519020081,
+      -0.11062376201152802,
+      0.9938623309135437
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.410215,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.4944087564945221,
+      -0.8692295551300049,
+      0.5726956129074097,
+      0.8197681307792664,
+      -0.4944087564945221,
+      -0.8692295551300049
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150536.5046768,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7967387437820435,
+      0.6043239235877991,
+      0.9323443174362183,
+      0.36157160997390747,
+      0.7967387437820435,
+      0.6043239235877991
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150536.597482,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9517534971237183,
+      -0.30686357617378235,
+      0.9780692458152771,
+      -0.20827996730804443,
+      -0.9517534971237183,
+      -0.30686357617378235
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.6889243,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9999972581863403,
+      -0.002350968075916171,
+      0.7068300843238831,
+      -0.7073833346366882,
+      0.9999972581863403,
+      -0.002350968075916171
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.7868226,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8496760725975037,
+      0.527305006980896,
+      0.16842235624790192,
+      -0.9857149124145508,
+      -0.8496760725975037,
+      0.527305006980896
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150536.8834636,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.49995049834251404,
+      -0.8660539984703064,
+      -0.42262646555900574,
+      -0.9063039422035217,
+      0.49995049834251404,
+      -0.8660539984703064
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150536.9871888,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.23432864248752594,
+      0.9721574187278748,
+      -0.8850578665733337,
+      -0.46548107266426086,
+      0.23432864248752594,
+      0.9721574187278748
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150537.231544,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.06222692131996155,
+      -0.998062014579773,
+      -0.49098631739616394,
+      0.8711673021316528,
+      -0.06222692131996155,
+      -0.998062014579773
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 29.0
+  },
+  {
+    "timestamp": 1764150537.3364372,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7691034078598022,
+      0.63912433385849,
+      0.14571812748908997,
+      0.9893261194229126,
+      0.7691034078598022,
+      0.63912433385849
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150537.4278526,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.92423415184021,
+      -0.38182613253593445,
+      0.6594615578651428,
+      0.7517383098602295,
+      -0.92423415184021,
+      -0.38182613253593445
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150537.5203822,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9976000785827637,
+      0.06923932582139969,
+      0.9628721475601196,
+      0.2699577212333679,
+      0.9976000785827637,
+      0.06923932582139969
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150537.6122212,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.970399796962738,
+      0.24150413274765015,
+      0.9546091556549072,
+      -0.2978612184524536,
+      -0.970399796962738,
+      0.24150413274765015
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150537.708533,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7225987911224365,
+      -0.691267728805542,
+      0.611687421798706,
+      -0.7910995483398438,
+      0.7225987911224365,
+      -0.691267728805542
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150537.800405,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.4699080288410187,
+      0.8827154040336609,
+      0.08144137263298035,
+      -0.9966781139373779,
+      -0.4699080288410187,
+      0.8827154040336609
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150537.892554,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.17130829393863678,
+      -0.9852174520492554,
+      -0.47494834661483765,
+      -0.8800137042999268,
+      0.17130829393863678,
+      -0.9852174520492554
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150537.985285,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.20754997432231903,
+      0.9782243967056274,
+      -0.8829184174537659,
+      -0.46952638030052185,
+      0.20754997432231903,
+      0.9782243967056274
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150538.087518,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7903109192848206,
+      -0.6127060651779175,
+      -0.9884875416755676,
+      0.15130221843719482,
+      -0.7903109192848206,
+      -0.6127060651779175
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.1854563,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9910111427307129,
+      0.13377952575683594,
+      -0.7227425575256348,
+      0.6911173462867737,
+      0.9910111427307129,
+      0.13377952575683594
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.2824152,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9161338806152344,
+      0.4008724093437195,
+      -0.19185800850391388,
+      0.9814227223396301,
+      -0.9161338806152344,
+      0.4008724093437195
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.380474,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5796574354171753,
+      -0.8148602843284607,
+      0.40825986862182617,
+      0.9128657579421997,
+      0.5796574354171753,
+      -0.8148602843284607
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.4862504,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.22861170768737793,
+      0.9735177159309387,
+      0.8846016526222229,
+      0.46634745597839355,
+      0.22861170768737793,
+      0.9735177159309387
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.5839105,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6908960938453674,
+      -0.7229540944099426,
+      0.9919310212135315,
+      -0.12677879631519318,
+      -0.6908960938453674,
+      -0.7229540944099426
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150538.6778827,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.925475001335144,
+      0.3788086175918579,
+      0.7513794302940369,
+      -0.659870445728302,
+      0.925475001335144,
+      0.3788086175918579
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.77191,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9998742938041687,
+      0.015854181721806526,
+      0.25626611709594727,
+      -0.9666062593460083,
+      -0.9998742938041687,
+      0.015854181721806526
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.8843727,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4493468403816223,
+      -0.8933573961257935,
+      -0.4312935471534729,
+      -0.9022116661071777,
+      0.4493468403816223,
+      -0.8933573961257935
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150538.9841657,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.15028589963912964,
+      0.9886425733566284,
+      -0.8783217668533325,
+      -0.4780699908733368,
+      0.15028589963912964,
+      0.9886425733566284
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150539.0823932,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6610012650489807,
+      -0.7503848075866699,
+      -0.9927656650543213,
+      0.12006810307502747,
+      -0.6610012650489807,
+      -0.7503848075866699
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 27.0
+  },
+  {
+    "timestamp": 1764150539.1783154,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9186508655548096,
+      0.3950703740119934,
+      -0.7533156275749207,
+      0.6576591730117798,
+      0.9186508655548096,
+      0.3950703740119934
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150539.2868805,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8493414521217346,
+      0.5278437733650208,
+      -0.16831791400909424,
+      0.9857327342033386,
+      -0.8493414521217346,
+      0.5278437733650208
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150539.3809066,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5596843361854553,
+      -0.828705906867981,
+      0.41195428371429443,
+      0.9112045168876648,
+      0.5596843361854553,
+      -0.828705906867981
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150539.4745283,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.22401703894138336,
+      0.974585235118866,
+      0.8465878963470459,
+      0.5322489142417908,
+      -0.22401703894138336,
+      0.974585235118866
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150539.568888,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.21220220625400543,
+      -0.9772257804870605,
+      0.9993650317192078,
+      -0.0356302373111248,
+      -0.21220220625400543,
+      -0.9772257804870605
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150539.6809003,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9622443914413452,
+      0.2721870243549347,
+      0.7388366460800171,
+      -0.6738845705986023,
+      0.9622443914413452,
+      0.2721870243549347
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 35.0
+  },
+  {
+    "timestamp": 1764150539.7730937,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9993143677711487,
+      0.03702415153384209,
+      0.2528523802757263,
+      -0.9675048589706421,
+      -0.9993143677711487,
+      0.03702415153384209
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150539.8653133,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9321306347846985,
+      -0.36212220788002014,
+      -0.31794077157974243,
+      -0.9481105804443359,
+      0.9321306347846985,
+      -0.36212220788002014
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150539.957547,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7332808375358582,
+      0.6799259185791016,
+      -0.789509117603302,
+      -0.6137388348579407,
+      -0.7332808375358582,
+      0.6799259185791016
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150540.056889,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.2515008747577667,
+      -0.9678570628166199,
+      -0.9991024732589722,
+      -0.04235858470201492,
+      0.2515008747577667,
+      -0.9678570628166199
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150540.1904376,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9975570440292358,
+      -0.06985660642385483,
+      -0.6988191604614258,
+      0.7152983546257019,
+      0.9975570440292358,
+      -0.06985660642385483
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 37.0
+  },
+  {
+    "timestamp": 1764150540.3270056,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4988936185836792,
+      0.8666632175445557,
+      0.0869438648223877,
+      0.9962131977081299,
+      0.4988936185836792,
+      0.8666632175445557
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 27.0
+  },
+  {
+    "timestamp": 1764150540.4227586,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8330875039100647,
+      -0.5531412363052368,
+      0.6347693204879761,
+      0.7727016806602478,
+      -0.8330875039100647,
+      -0.5531412363052368
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 20.0
+  },
+  {
+    "timestamp": 1764150540.52153,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9999566674232483,
+      0.009308517910540104,
+      0.9655231833457947,
+      0.2603171765804291,
+      0.9999566674232483,
+      0.009308517910540104
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150540.617634,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8970000743865967,
+      0.4420304000377655,
+      0.9433833956718445,
+      -0.33170434832572937,
+      -0.8970000743865967,
+      0.4420304000377655
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150540.7084477,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7260533571243286,
+      -0.6876384019851685,
+      0.6123473644256592,
+      -0.7905887961387634,
+      0.7260533571243286,
+      -0.6876384019851685
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150540.803823,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.34829476475715637,
+      0.937385082244873,
+      0.05925725772976875,
+      -0.9982427358627319,
+      -0.34829476475715637,
+      0.937385082244873
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150540.9070244,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.35515767335891724,
+      -0.9348064064979553,
+      -0.5514591932296753,
+      -0.8342018723487854,
+      -0.35515767335891724,
+      -0.9348064064979553
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150541.0034337,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.767641007900238,
+      0.6408801078796387,
+      -0.9295005798339844,
+      -0.3688206672668457,
+      0.767641007900238,
+      0.6408801078796387
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150541.0978436,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9642629623413086,
+      -0.26494693756103516,
+      -0.9765244126319885,
+      0.21540667116641998,
+      -0.9642629623413086,
+      -0.26494693756103516
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150541.192131,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9914582967758179,
+      -0.13042397797107697,
+      -0.6915251016616821,
+      0.7223523855209351,
+      0.9914582967758179,
+      -0.13042397797107697
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150541.297367,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5855517983436584,
+      0.810634970664978,
+      -0.10407101362943649,
+      0.9945698976516724,
+      -0.5855517983436584,
+      0.810634970664978
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150541.394599,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.10144506394863129,
+      -0.9948411583900452,
+      0.4852616488933563,
+      0.8743690252304077,
+      0.10144506394863129,
+      -0.9948411583900452
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150541.4934826,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4649036228656769,
+      0.8853613138198853,
+      0.9034650921821594,
+      0.42866164445877075,
+      0.4649036228656769,
+      0.8853613138198853
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150541.6069252,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9982693195343018,
+      0.05880776792764664,
+      0.9633411169052124,
+      -0.268279492855072,
+      -0.9982693195343018,
+      0.05880776792764664
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150541.716358,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5083832740783691,
+      -0.8611308932304382,
+      0.5749006271362305,
+      -0.818223237991333,
+      0.5083832740783691,
+      -0.8611308932304382
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 27.0
+  },
+  {
+    "timestamp": 1764150541.8154395,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.061225246638059616,
+      0.9981240034103394,
+      -0.010210900567471981,
+      -0.9999478459358215,
+      0.061225246638059616,
+      0.9981240034103394
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150541.9190772,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7453608512878418,
+      -0.6666612029075623,
+      -0.6160975098609924,
+      -0.7876698970794678,
+      -0.7453608512878418,
+      -0.6666612029075623
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150542.0175962,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9864547848701477,
+      0.1640334129333496,
+      -0.9584547281265259,
+      -0.28524479269981384,
+      0.9864547848701477,
+      0.1640334129333496
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150542.1254942,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7308757901191711,
+      0.682510495185852,
+      -0.9260459542274475,
+      0.37741073966026306,
+      -0.7308757901191711,
+      0.682510495185852
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150542.223469,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.2369271218776703,
+      -0.9715273976325989,
+      -0.5341187119483948,
+      0.8454095125198364,
+      0.2369271218776703,
+      -0.9715273976325989
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150542.323338,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.3694295585155487,
+      0.9292587041854858,
+      0.06302468478679657,
+      0.9980119466781616,
+      0.3694295585155487,
+      0.9292587041854858
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150542.418412,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7184910178184509,
+      -0.6955362558364868,
+      0.6109060645103455,
+      0.7917031049728394,
+      -0.7184910178184509,
+      -0.6955362558364868
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150542.5269043,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.982585608959198,
+      -0.18581032752990723,
+      0.9735181927680969,
+      0.22860945761203766,
+      0.982585608959198,
+      -0.18581032752990723
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150542.6253016,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.725139319896698,
+      0.6886022090911865,
+      0.9255186319351196,
+      -0.3787021040916443,
+      -0.725139319896698,
+      0.6886022090911865
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150542.7209632,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.34323152899742126,
+      -0.9392508268356323,
+      0.5496877431869507,
+      -0.8353701829910278,
+      0.34323152899742126,
+      -0.9392508268356323
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150542.8193777,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.23350758850574493,
+      0.9723550081253052,
+      -0.03927158936858177,
+      -0.9992285966873169,
+      0.23350758850574493,
+      0.9723550081253052
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150542.954527,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8293313384056091,
+      0.5587571859359741,
+      -0.7734168171882629,
+      -0.6338977813720703,
+      -0.8293313384056091,
+      0.5587571859359741
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150543.0591133,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.1767720878124237,
+      -0.9842517971992493,
+      -0.9995614886283875,
+      -0.029612015932798386,
+      0.1767720878124237,
+      -0.9842517971992493
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 28.0
+  },
+  {
+    "timestamp": 1764150543.149017,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.07884369045495987,
+      0.9968869686126709,
+      -0.8593727350234985,
+      0.5113496780395508,
+      0.07884369045495987,
+      0.9968869686126709
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150543.241161,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.4004978537559509,
+      -0.9162976741790771,
+      -0.43939098715782166,
+      0.8982959389686584,
+      -0.4004978537559509,
+      -0.9162976741790771
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150543.3377278,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7893160581588745,
+      0.613987147808075,
+      0.1510368287563324,
+      0.9885281324386597,
+      0.7893160581588745,
+      0.613987147808075
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150543.428974,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9341616034507751,
+      -0.35685020685195923,
+      0.6628239154815674,
+      0.7487753033638,
+      -0.9341616034507751,
+      -0.35685020685195923
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150543.5170815,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9859589338302612,
+      0.1669880598783493,
+      0.9583123326301575,
+      0.28572267293930054,
+      0.9859589338302612,
+      0.1669880598783493
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150543.6060917,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9990225434303284,
+      0.04420366510748863,
+      0.9639918208122253,
+      -0.2659318447113037,
+      -0.9990225434303284,
+      0.04420366510748863
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150543.6996675,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9072391986846924,
+      -0.4206150770187378,
+      0.6541383862495422,
+      -0.7563748955726624,
+      0.9072391986846924,
+      -0.4206150770187378
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150543.790072,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7834649682044983,
+      0.6214359402656555,
+      0.14947326481342316,
+      -0.9887657761573792,
+      -0.7834649682044983,
+      0.6214359402656555
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150543.8793654,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6146000027656555,
+      -0.7888389229774475,
+      -0.4016219675540924,
+      -0.9158055186271667,
+      0.6146000027656555,
+      -0.7888389229774475
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150543.9726715,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.289238840341568,
+      0.9572569727897644,
+      -0.8405478596687317,
+      -0.5417373180389404,
+      -0.289238840341568,
+      0.9572569727897644
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150544.0651832,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.05722050741314888,
+      -0.9983615875244141,
+      -0.9999544620513916,
+      0.009543285705149174,
+      -0.05722050741314888,
+      -0.9983615875244141
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.1611037,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5164803862571716,
+      0.8562990427017212,
+      -0.8173176646232605,
+      0.5761873126029968,
+      0.5164803862571716,
+      0.8562990427017212
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 30.0
+  },
+  {
+    "timestamp": 1764150544.2513382,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7108671069145203,
+      -0.7033263444900513,
+      -0.38186076283454895,
+      0.9242198467254639,
+      -0.7108671069145203,
+      -0.7033263444900513
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.3400078,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8459596633911133,
+      0.5332468748092651,
+      0.1672717034816742,
+      0.9859108328819275,
+      0.8459596633911133,
+      0.5332468748092651
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.4364097,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.995947539806366,
+      -0.08993615210056305,
+      0.6964150667190552,
+      0.7176392078399658,
+      -0.995947539806366,
+      -0.08993615210056305
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.5280743,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9751930832862854,
+      -0.22135603427886963,
+      0.9748839139938354,
+      0.2227136641740799,
+      0.9751930832862854,
+      -0.22135603427886963
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.6185267,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8835168480873108,
+      0.46839937567710876,
+      0.9417341351509094,
+      -0.3363581597805023,
+      -0.8835168480873108,
+      0.46839937567710876
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.712678,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.611691951751709,
+      -0.791096031665802,
+      0.5918057560920715,
+      -0.8060806393623352,
+      0.611691951751709,
+      -0.791096031665802
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 25.0
+  },
+  {
+    "timestamp": 1764150544.8096685,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.14723820984363556,
+      0.9891010522842407,
+      0.024625584483146667,
+      -0.9996967315673828,
+      -0.14723820984363556,
+      0.9891010522842407
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.901088,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.14166587591171265,
+      -0.9899145364761353,
+      -0.5203754901885986,
+      -0.853937566280365,
+      -0.14166587591171265,
+      -0.9899145364761353
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150544.9912546,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.41722169518470764,
+      0.9088047742843628,
+      -0.8996335864067078,
+      -0.4366455674171448,
+      0.41722169518470764,
+      0.9088047742843628
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150545.0815828,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6154005527496338,
+      -0.7882145047187805,
+      -0.993902862071991,
+      0.1102590262889862,
+      -0.6154005527496338,
+      -0.7882145047187805
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150545.1763997,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8954823613166809,
+      0.4450969994068146,
+      -0.7593263983726501,
+      0.6507099270820618,
+      0.8954823613166809,
+      0.4450969994068146
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150545.268053,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9878209233283997,
+      -0.15559519827365875,
+      -0.28387826681137085,
+      0.9588603377342224,
+      -0.9878209233283997,
+      -0.15559519827365875
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150545.3561065,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9990081191062927,
+      -0.044527750462293625,
+      0.2659836411476135,
+      0.9639775156974792,
+      0.9990081191062927,
+      -0.044527750462293625
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150545.446723,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9580041170120239,
+      0.28675445914268494,
+      0.740539014339447,
+      0.6720134019851685,
+      -0.9580041170120239,
+      0.28675445914268494
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150545.5429435,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7001409530639648,
+      -0.714004635810852,
+      0.9916568994522095,
+      0.12890522181987762,
+      0.7001409530639648,
+      -0.714004635810852
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150545.6381462,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.3271550238132477,
+      0.9449706673622131,
+      0.8924492001533508,
+      -0.4511478543281555,
+      -0.3271550238132477,
+      0.9449706673622131
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150545.72912,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.03288549557328224,
+      -0.9994591474533081,
+      0.504738986492157,
+      -0.8632720112800598,
+      0.03288549557328224,
+      -0.9994591474533081
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150545.8224475,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.33558350801467896,
+      0.9420104622840881,
+      -0.05700770765542984,
+      -0.9983737468719482,
+      0.33558350801467896,
+      0.9420104622840881
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 1,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150545.9185276,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.720733106136322,
+      -0.6932126879692078,
+      -0.6113324761390686,
+      -0.7913738489151001,
+      -0.720733106136322,
+      -0.6932126879692078
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150546.0109012,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.921132504940033,
+      0.38924920558929443,
+      -0.9465486407279968,
+      -0.322561115026474,
+      0.921132504940033,
+      0.38924920558929443
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150546.1014547,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9906051158905029,
+      -0.13675330579280853,
+      -0.9715901017189026,
+      0.2366698831319809,
+      -0.9906051158905029,
+      -0.13675330579280853
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150546.1936347,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.984953761100769,
+      -0.17281800508499146,
+      -0.6863428950309753,
+      0.7272781133651733,
+      0.984953761100769,
+      -0.17281800508499146
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150546.2899675,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7809823751449585,
+      0.6245530843734741,
+      -0.14881660044193268,
+      0.9888648390769958,
+      -0.7809823751449585,
+      0.6245530843734741
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150546.3824952,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5308828353881836,
+      -0.8474451899528503,
+      0.4171675145626068,
+      0.9088296294212341,
+      0.5308828353881836,
+      -0.8474451899528503
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 26.0
+  },
+  {
+    "timestamp": 1764150546.474087,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.19493402540683746,
+      0.9808163642883301,
+      0.8492169976234436,
+      0.5280440449714661,
+      -0.19493402540683746,
+      0.9808163642883301
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150546.5655217,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.07146445661783218,
+      -0.9974431395530701,
+      0.9999289512634277,
+      -0.011922001838684082,
+      -0.07146445661783218,
+      -0.9974431395530701
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150546.6634696,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5718869566917419,
+      0.8203324675559998,
+      0.8109235167503357,
+      -0.5851521492004395,
+      0.5718869566917419,
+      0.8203324675559998
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150546.7520862,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.744031548500061,
+      -0.6681444644927979,
+      0.37440022826194763,
+      -0.9272671937942505,
+      -0.744031548500061,
+      -0.6681444644927979
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150546.8442276,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9195052981376648,
+      0.39307767152786255,
+      -0.1932482123374939,
+      -0.9811499118804932,
+      0.9195052981376648,
+      0.39307767152786255
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150546.9351382,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9915624856948853,
+      -0.12962950766086578,
+      -0.6916231513023376,
+      -0.7222585678100586,
+      -0.9915624856948853,
+      -0.12962950766086578
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150547.043151,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7026655077934265,
+      -0.7115203142166138,
+      -0.9915807843208313,
+      -0.12948955595493317,
+      0.7026655077934265,
+      -0.7115203142166138
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 32.0
+  },
+  {
+    "timestamp": 1764150547.132417,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5105596780776978,
+      0.8598423004150391,
+      -0.9071670174598694,
+      0.42077067494392395,
+      -0.5105596780776978,
+      0.8598423004150391
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150547.225214,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.19827577471733093,
+      -0.9801462888717651,
+      -0.5285258889198303,
+      0.8489171862602234,
+      0.19827577471733093,
+      -0.9801462888717651
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150547.313803,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.023866770789027214,
+      0.9997151494026184,
+      0.003980149049311876,
+      0.9999920725822449,
+      0.023866770789027214,
+      0.9997151494026184
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150547.411636,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5241491198539734,
+      -0.8516265153884888,
+      0.5774103999137878,
+      0.8164540529251099,
+      -0.5241491198539734,
+      -0.8516265153884888
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150547.5010767,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7165601253509521,
+      0.6975253224372864,
+      0.924736499786377,
+      0.3806079626083374,
+      0.7165601253509521,
+      0.6975253224372864
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150547.592551,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8942619562149048,
+      -0.4475438892841339,
+      0.9830344319343567,
+      -0.18342097103595734,
+      -0.8942619562149048,
+      -0.4475438892841339
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150547.682497,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9698886871337891,
+      0.2435486614704132,
+      0.735496997833252,
+      -0.6775279641151428,
+      0.9698886871337891,
+      0.2435486614704132
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150547.793588,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6629474759101868,
+      0.7486659288406372,
+      0.12049593031406403,
+      -0.9927138090133667,
+      -0.6629474759101868,
+      0.7486659288406372
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 33.0
+  },
+  {
+    "timestamp": 1764150547.8967204,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.02493138238787651,
+      -0.9996891617774963,
+      -0.4963986277580261,
+      -0.8680946826934814,
+      0.02493138238787651,
+      -0.9996891617774963
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 31.0
+  },
+  {
+    "timestamp": 1764150547.9900882,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.36235007643699646,
+      0.9320420622825623,
+      -0.895252525806427,
+      -0.4455590844154358,
+      0.36235007643699646,
+      0.9320420622825623
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150548.0839994,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6854816675186157,
+      -0.7280898690223694,
+      -0.9920876026153564,
+      0.1255476027727127,
+      -0.6854816675186157,
+      -0.7280898690223694
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150548.1900692,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9992900490760803,
+      -0.03767568618059158,
+      -0.7026500105857849,
+      0.7115356922149658,
+      0.9992900490760803,
+      -0.03767568618059158
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150548.279526,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.954281747341156,
+      0.29890865087509155,
+      -0.2096390426158905,
+      0.9777788519859314,
+      -0.954281747341156,
+      0.29890865087509155
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150548.371097,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8238970637321472,
+      -0.5667394995689392,
+      0.3543557822704315,
+      0.9351106882095337,
+      0.8238970637321472,
+      -0.5667394995689392
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150548.464129,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5579864382743835,
+      0.8298500776290894,
+      0.8125653266906738,
+      0.5828701853752136,
+      -0.5579864382743835,
+      0.8298500776290894
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150548.5632436,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.021437106654047966,
+      -0.9997702240943909,
+      0.999993622303009,
+      0.003571339650079608,
+      0.021437106654047966,
+      -0.9997702240943909
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150548.6561975,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.34599998593330383,
+      0.9382345080375671,
+      0.835098385810852,
+      -0.550100564956665,
+      0.34599998593330383,
+      0.9382345080375671
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150548.747797,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6092621088027954,
+      -0.7929689288139343,
+      0.4026486575603485,
+      -0.9153546094894409,
+      -0.6092621088027954,
+      -0.7929689288139343
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150548.841616,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.861826479434967,
+      0.5072031617164612,
+      -0.17228130996227264,
+      -0.9850478172302246,
+      0.861826479434967,
+      0.5072031617164612
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150548.9400725,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9988388419151306,
+      0.04817624017596245,
+      -0.712765097618103,
+      -0.7014028429985046,
+      -0.9988388419151306,
+      0.04817624017596245
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150549.0320196,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9230128526687622,
+      -0.38476914167404175,
+      -0.9808590412139893,
+      -0.19471903145313263,
+      0.9230128526687622,
+      -0.38476914167404175
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150549.1278272,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.665530264377594,
+      0.7463708519935608,
+      -0.9201889038085938,
+      0.3914746642112732,
+      -0.665530264377594,
+      0.7463708519935608
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150549.222793,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.2894824147224426,
+      -0.957183301448822,
+      -0.5417724251747131,
+      0.840525209903717,
+      0.2894824147224426,
+      -0.957183301448822
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150549.324513,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.41234225034713745,
+      0.911029040813446,
+      0.07078017294406891,
+      0.9974919557571411,
+      0.41234225034713745,
+      0.911029040813446
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150549.4171126,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6857654452323914,
+      -0.7278226017951965,
+      0.6048228740692139,
+      0.7963600754737854,
+      -0.6857654452323914,
+      -0.7278226017951965
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150549.5096102,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9007908701896667,
+      0.4342532157897949,
+      0.9438614845275879,
+      0.33034148812294006,
+      0.9007908701896667,
+      0.4342532157897949
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150549.603439,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9973995685577393,
+      -0.07207003980875015,
+      0.9689669609069824,
+      -0.24719031155109406,
+      -0.9973995685577393,
+      -0.07207003980875015
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150549.701541,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8881658315658569,
+      -0.45952308177948,
+      0.6486577987670898,
+      -0.7610802054405212,
+      0.8881658315658569,
+      -0.45952308177948
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150549.7931502,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6894567012786865,
+      0.7243269681930542,
+      0.1264481544494629,
+      -0.9919732213020325,
+      -0.6894567012786865,
+      0.7243269681930542
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150549.8880363,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.3448030948638916,
+      -0.938675045967102,
+      -0.44835972785949707,
+      -0.8938531875610352,
+      0.3448030948638916,
+      -0.938675045967102
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150549.9801419,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.0045912740752100945,
+      0.9999894499778748,
+      -0.8656435012817383,
+      -0.5006608963012695,
+      -0.0045912740752100945,
+      0.9999894499778748
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150550.0830297,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6570398807525635,
+      -0.75385582447052,
+      -0.9928703904151917,
+      0.11919891834259033,
+      -0.6570398807525635,
+      -0.75385582447052
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150550.1798775,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9451813697814941,
+      0.326545774936676,
+      -0.7452017664909363,
+      0.6668391227722168,
+      0.9451813697814941,
+      0.326545774936676
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150550.274184,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9972478151321411,
+      0.07414018362760544,
+      -0.24685117602348328,
+      0.9690533876419067,
+      -0.9972478151321411,
+      0.07414018362760544
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150550.3697166,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8631212711334229,
+      -0.504996657371521,
+      0.34292683005332947,
+      0.939362108707428,
+      0.8631212711334229,
+      -0.504996657371521
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150550.4710608,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.332745224237442,
+      0.943016767501831,
+      0.8363900184631348,
+      0.5481347441673279,
+      -0.332745224237442,
+      0.943016767501831
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150550.5671158,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.1402798593044281,
+      -0.9901118874549866,
+      0.9997248649597168,
+      -0.023456968367099762,
+      -0.1402798593044281,
+      -0.9901118874549866
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150550.6595514,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4727821946144104,
+      0.8811793327331543,
+      0.8221180438995361,
+      -0.5693170428276062,
+      0.4727821946144104,
+      0.8811793327331543
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150550.7560656,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8172910213470459,
+      -0.5762251019477844,
+      0.35615313053131104,
+      -0.9344276189804077,
+      -0.8172910213470459,
+      -0.5762251019477844
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150550.861062,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.973011314868927,
+      -0.23075734078884125,
+      -0.29610350728034973,
+      -0.9551558494567871,
+      0.973011314868927,
+      -0.23075734078884125
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150550.957434,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.767884373664856,
+      0.6405884623527527,
+      -0.7841203212738037,
+      -0.6206088662147522,
+      -0.767884373664856,
+      0.6405884623527527
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150551.0501673,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5002106428146362,
+      -0.8659037351608276,
+      -0.9961913228034973,
+      -0.08719418942928314,
+      0.5002106428146362,
+      -0.8659037351608276
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150551.1441193,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.12170236557722092,
+      0.9925666451454163,
+      -0.8760119080543518,
+      0.48228946328163147,
+      -0.12170236557722092,
+      0.9925666451454163
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150551.24662,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5634283423423767,
+      -0.826164960861206,
+      -0.4112657606601715,
+      0.911515474319458,
+      -0.5634283423423767,
+      -0.826164960861206
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150551.3472512,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9540953040122986,
+      0.2995031774044037,
+      0.20954082906246185,
+      0.9777998924255371,
+      0.9540953040122986,
+      0.2995031774044037
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150551.4440906,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9822571873664856,
+      0.18753878772258759,
+      0.7289878726005554,
+      0.6845266222953796,
+      -0.9822571873664856,
+      0.18753878772258759
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150551.5391862,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8030699491500854,
+      -0.5958847403526306,
+      0.9879491925239563,
+      0.15477870404720306,
+      0.8030699491500854,
+      -0.5958847403526306
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150551.6405883,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.23329830169677734,
+      0.972405195236206,
+      0.8849751949310303,
+      -0.4656381905078888,
+      -0.23329830169677734,
+      0.972405195236206
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150551.7374327,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.25457480549812317,
+      -0.9670530557632446,
+      0.4623962938785553,
+      -0.8866733908653259,
+      -0.25457480549812317,
+      -0.9670530557632446
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150551.8325918,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6636320352554321,
+      0.7480591535568237,
+      -0.12065089493989944,
+      -0.9926949739456177,
+      0.6636320352554321,
+      0.7480591535568237
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150551.9289453,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9311457872390747,
+      -0.36464715003967285,
+      -0.6617799997329712,
+      -0.7496980428695679,
+      -0.9311457872390747,
+      -0.36464715003967285
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150552.0290682,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9644094705581665,
+      -0.2644132375717163,
+      -0.976504921913147,
+      -0.21549512445926666,
+      0.9644094705581665,
+      -0.2644132375717163
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150552.1236014,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7570131421089172,
+      0.653399646282196,
+      -0.9284870624542236,
+      0.37136468291282654,
+      -0.7570131421089172,
+      0.653399646282196
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150552.220959,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.36509212851524353,
+      -0.9309713840484619,
+      -0.5529381036758423,
+      0.8332223296165466,
+      0.36509212851524353,
+      -0.9309713840484619
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150552.3227508,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.3315400183200836,
+      0.9434411525726318,
+      0.056293752044439316,
+      0.9984142780303955,
+      0.3315400183200836,
+      0.9434411525726318
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 31.0
+  },
+  {
+    "timestamp": 1764150552.4243014,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8620362877845764,
+      -0.5068466067314148,
+      0.6417760848999023,
+      0.7668920755386353,
+      -0.8620362877845764,
+      -0.5068466067314148
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150552.5231354,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9995641708374023,
+      -0.029520675539970398,
+      0.9671880006790161,
+      0.254061758518219,
+      0.9995641708374023,
+      -0.029520675539970398
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150552.618335,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8813411593437195,
+      0.4724804759025574,
+      0.9414746761322021,
+      -0.33708372712135315,
+      -0.8813411593437195,
+      0.4724804759025574
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150552.7171178,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4852759540081024,
+      -0.8743610382080078,
+      0.5712631940841675,
+      -0.8207669258117676,
+      0.4852759540081024,
+      -0.8743610382080078
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150552.8206894,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.25946882367134094,
+      0.9657514691352844,
+      -0.04373260587453842,
+      -0.9990432858467102,
+      0.25946882367134094,
+      0.9657514691352844
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150552.9167829,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6882306337356567,
+      -0.725492000579834,
+      -0.6052722930908203,
+      -0.7960184812545776,
+      -0.6882306337356567,
+      -0.725492000579834
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150553.011638,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.921601414680481,
+      0.38813766837120056,
+      -0.9466135501861572,
+      -0.32237064838409424,
+      0.921601414680481,
+      0.38813766837120056
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150553.106588,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9994381666183472,
+      0.03351633995771408,
+      -0.9644643664360046,
+      0.26421302556991577,
+      -0.9994381666183472,
+      0.03351633995771408
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150553.2076027,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7641838192939758,
+      -0.6449985504150391,
+      -0.6198565363883972,
+      0.7847151756286621,
+      0.7641838192939758,
+      -0.6449985504150391
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150553.3037472,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.3539685606956482,
+      0.9352573156356812,
+      -0.06026363745331764,
+      0.998182475566864,
+      -0.3539685606956482,
+      0.9352573156356812
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150553.3970656,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.021058281883597374,
+      -0.9997782707214355,
+      0.5030378103256226,
+      0.8642644286155701,
+      -0.021058281883597374,
+      -0.9997782707214355
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150553.4941213,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5091622471809387,
+      0.8606705665588379,
+      0.9070544242858887,
+      0.42101341485977173,
+      0.5091622471809387,
+      0.8606705665588379
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150553.605509,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9999984502792358,
+      -0.0017533174250274897,
+      0.9660010933876038,
+      -0.2585379481315613,
+      -0.9999984502792358,
+      -0.0017533174250274897
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150553.704186,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8303967714309692,
+      -0.5571724772453308,
+      0.6341438889503479,
+      -0.7732150554656982,
+      0.8303967714309692,
+      -0.5571724772453308
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150553.7981203,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5661057829856873,
+      0.824332594871521,
+      0.10012644529342651,
+      -0.9949747323989868,
+      -0.5661057829856873,
+      0.824332594871521
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 20.0
+  },
+  {
+    "timestamp": 1764150553.8907247,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.24346941709518433,
+      -0.969908595085144,
+      -0.46409252285957336,
+      -0.8857867121696472,
+      0.24346941709518433,
+      -0.969908595085144
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 20.0
+  },
+  {
+    "timestamp": 1764150553.997688,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6219890713691711,
+      0.7830259203910828,
+      -0.9164348840713501,
+      -0.4001838266849518,
+      0.6219890713691711,
+      0.7830259203910828
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150554.0921504,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8872343897819519,
+      -0.4613189697265625,
+      -0.983504056930542,
+      0.1808859258890152,
+      -0.8872343897819519,
+      -0.4613189697265625
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150554.183133,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9752882719039917,
+      0.22093625366687775,
+      -0.732866644859314,
+      0.6803722977638245,
+      0.9752882719039917,
+      0.22093625366687775
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 19.0
+  },
+  {
+    "timestamp": 1764150554.27969,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9595192074775696,
+      0.28164324164390564,
+      -0.2125791311264038,
+      0.9771438241004944,
+      -0.9595192074775696,
+      0.28164324164390564
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150554.3930852,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.16318275034427643,
+      -0.986595869064331,
+      0.4761582016944885,
+      0.8793596029281616,
+      0.16318275034427643,
+      -0.986595869064331
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150554.4873624,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.27785634994506836,
+      0.9606226682662964,
+      0.8885274529457092,
+      0.45882344245910645,
+      0.27785634994506836,
+      0.9606226682662964
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150554.5766366,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.48713570833206177,
+      -0.873326301574707,
+      0.9964064359664917,
+      -0.08470071107149124,
+      -0.48713570833206177,
+      -0.873326301574707
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150554.6704562,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7686030864715576,
+      0.6397259831428528,
+      0.7840022444725037,
+      -0.6207579970359802,
+      0.7686030864715576,
+      0.6397259831428528
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150554.768358,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9914272427558899,
+      -0.13066017627716064,
+      0.2798493504524231,
+      -0.9600439071655273,
+      -0.9914272427558899,
+      -0.13066017627716064
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150554.8626432,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9603603482246399,
+      -0.27876147627830505,
+      -0.30399632453918457,
+      -0.9526731967926025,
+      0.9603603482246399,
+      -0.27876147627830505
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150554.9541862,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8257858753204346,
+      0.5639837980270386,
+      -0.7740837931632996,
+      -0.633083164691925,
+      -0.8257858753204346,
+      0.5639837980270386
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150555.0471985,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5802851915359497,
+      -0.8144133687019348,
+      -0.9946818351745605,
+      -0.10299551486968994,
+      0.5802851915359497,
+      -0.8144133687019348
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150555.1452796,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.050604481250047684,
+      0.998718798160553,
+      -0.8702126741409302,
+      0.4926762282848358,
+      -0.050604481250047684,
+      0.998718798160553
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150555.2362878,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.243149995803833,
+      -0.9699887037277222,
+      -0.4641387462615967,
+      0.8857625126838684,
+      -0.243149995803833,
+      -0.9699887037277222
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150555.3309784,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6179116368293762,
+      0.7862475514411926,
+      0.11078742891550064,
+      0.9938441514968872,
+      0.6179116368293762,
+      0.7862475514411926
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150555.4278824,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.924543023109436,
+      -0.38107767701148987,
+      0.6595644950866699,
+      0.75164794921875,
+      -0.924543023109436,
+      -0.38107767701148987
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150555.5334656,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9110090732574463,
+      -0.4123862683773041,
+      0.9818238615989685,
+      0.1897943913936615,
+      0.9110090732574463,
+      -0.4123862683773041
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150555.629817,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5881922245025635,
+      0.808721125125885,
+      0.9135790467262268,
+      -0.4066612124443054,
+      -0.5881922245025635,
+      0.808721125125885
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150555.7261868,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.15157996118068695,
+      -0.988444983959198,
+      0.5217990279197693,
+      -0.853068470954895,
+      0.15157996118068695,
+      -0.988444983959198
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150555.8188164,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.2062726467847824,
+      0.9784945845603943,
+      -0.034621793776750565,
+      -0.9994004964828491,
+      0.2062726467847824,
+      0.9784945845603943
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150555.9237988,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8549512028694153,
+      -0.5187084674835205,
+      -0.6400086879730225,
+      -0.7683676481246948,
+      -0.8549512028694153,
+      -0.5187084674835205
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150556.0216973,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9999805688858032,
+      -0.006234768312424421,
+      -0.9661946296691895,
+      -0.25781384110450745,
+      0.9999805688858032,
+      -0.006234768312424421
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150556.11629,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9213012456893921,
+      0.3888495862483978,
+      -0.9465711116790771,
+      0.3224952220916748,
+      -0.9213012456893921,
+      0.3888495862483978
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150556.2107635,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6806390285491943,
+      -0.7326189279556274,
+      -0.6038880348205566,
+      0.7970691323280334,
+      0.6806390285491943,
+      -0.7326189279556274
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150556.330418,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5892284512519836,
+      0.8079664707183838,
+      0.1048252061009407,
+      0.9944906830787659,
+      0.5892284512519836,
+      0.8079664707183838
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150556.4277961,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.919675886631012,
+      -0.39267832040786743,
+      0.6579867005348206,
+      0.7530295252799988,
+      -0.919675886631012,
+      -0.39267832040786743
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150556.5223336,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9999952912330627,
+      -0.0030719430651515722,
+      0.9660584330558777,
+      0.25832366943359375,
+      0.9999952912330627,
+      -0.0030719430651515722
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150556.617618,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8970664739608765,
+      0.44189566373825073,
+      0.9433914422988892,
+      -0.33168140053749084,
+      -0.8970664739608765,
+      0.44189566373825073
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150556.7198062,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.3918139338493347,
+      -0.920044481754303,
+      0.5569412112236023,
+      -0.8305519223213196,
+      0.3918139338493347,
+      -0.920044481754303
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150556.816697,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.12357749789953232,
+      0.9923349022865295,
+      -0.02064829133450985,
+      -0.9997867941856384,
+      0.12357749789953232,
+      0.9923349022865295
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150556.9137964,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.580616295337677,
+      -0.8141773343086243,
+      -0.5865941643714905,
+      -0.8098810315132141,
+      -0.580616295337677,
+      -0.8141773343086243
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.009784,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9040666818618774,
+      0.4273914098739624,
+      -0.9442788362503052,
+      -0.3291465640068054,
+      0.9040666818618774,
+      0.4273914098739624
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.1143475,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9386196732521057,
+      0.3449537754058838,
+      -0.9490785002708435,
+      0.3150396943092346,
+      -0.9386196732521057,
+      0.3449537754058838
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.210723,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.682623565196991,
+      -0.7307701706886292,
+      -0.6042482852935791,
+      0.7967960834503174,
+      0.682623565196991,
+      -0.7307701706886292
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.3052127,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.29983797669410706,
+      0.9539901614189148,
+      -0.05073115602135658,
+      0.9987123608589172,
+      -0.29983797669410706,
+      0.9539901614189148
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.4023793,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.21486401557922363,
+      -0.976643979549408,
+      0.5309247374534607,
+      0.8474189639091492,
+      -0.21486401557922363,
+      -0.976643979549408
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.521421,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9995572566986084,
+      0.029753899201750755,
+      0.9646304249763489,
+      0.2636060118675232,
+      0.9995572566986084,
+      0.029753899201750755
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.6152685,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9325119256973267,
+      0.3611391484737396,
+      0.9481663107872009,
+      -0.31777456402778625,
+      -0.9325119256973267,
+      0.3611391484737396
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.7082176,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7183229923248291,
+      -0.6957097053527832,
+      0.6108732223510742,
+      -0.7917284369468689,
+      0.7183229923248291,
+      -0.6957097053527832
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150557.8017256,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.43040838837623596,
+      0.9026342630386353,
+      0.07408896088600159,
+      -0.9972516298294067,
+      -0.43040838837623596,
+      0.9026342630386353
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.9012187,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.15264855325222015,
+      -0.9882805347442627,
+      -0.5219544768333435,
+      -0.8529733419418335,
+      -0.15264855325222015,
+      -0.9882805347442627
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150557.9967098,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5949540138244629,
+      0.803759753704071,
+      -0.9141474366188049,
+      -0.4053818881511688,
+      0.5949540138244629,
+      0.803759753704071
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150558.0914285,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8589413166046143,
+      -0.5120739936828613,
+      -0.9852100610733032,
+      0.17135091125965118,
+      -0.8589413166046143,
+      -0.5120739936828613
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150558.1933367,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.987229585647583,
+      -0.15930409729480743,
+      -0.6880025863647461,
+      0.7257082462310791,
+      0.987229585647583,
+      -0.15930409729480743
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 25.0
+  },
+  {
+    "timestamp": 1764150558.3074474,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.214039608836174,
+      0.9768249988555908,
+      -0.035942740738391876,
+      0.99935382604599,
+      -0.214039608836174,
+      0.9768249988555908
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150558.4063106,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.35402432084083557,
+      -0.9352362155914307,
+      0.5512914657592773,
+      0.8343126773834229,
+      -0.35402432084083557,
+      -0.9352362155914307
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150558.500816,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6912692785263062,
+      0.7225972414016724,
+      0.9224606156349182,
+      0.3860912621021271,
+      0.6912692785263062,
+      0.7225972414016724
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150558.593723,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8993291854858398,
+      -0.43727222084999084,
+      0.9826827645301819,
+      -0.185295969247818,
+      -0.8993291854858398,
+      -0.43727222084999084
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150558.7074974,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7550635933876038,
+      -0.6556515097618103,
+      0.6180212497711182,
+      -0.7861614227294922,
+      0.7550635933876038,
+      -0.6556515097618103
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 30.0
+  },
+  {
+    "timestamp": 1764150558.8067276,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.2670207619667053,
+      0.9636907577514648,
+      0.04503410682082176,
+      -0.9989854693412781,
+      -0.2670207619667053,
+      0.9636907577514648
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150558.899205,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.0916953980922699,
+      -0.9957870841026306,
+      -0.5131952166557312,
+      -0.8582718968391418,
+      -0.0916953980922699,
+      -0.9957870841026306
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150558.9951773,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5221335887908936,
+      0.8528636693954468,
+      -0.9081135392189026,
+      -0.418724000453949,
+      0.5221335887908936,
+      0.8528636693954468
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150559.0982602,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9688082933425903,
+      -0.2478114366531372,
+      -0.9758836627006531,
+      0.21829132735729218,
+      -0.9688082933425903,
+      -0.2478114366531372
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150559.1943655,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9766908288002014,
+      -0.21465101838111877,
+      -0.6811569929122925,
+      0.7321373820304871,
+      0.9766908288002014,
+      -0.21465101838111877
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150559.2952757,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6255921125411987,
+      0.7801503539085388,
+      -0.11240974813699722,
+      0.9936619400978088,
+      -0.6255921125411987,
+      0.7801503539085388
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150559.3903475,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.2532338798046112,
+      -0.9674050807952881,
+      0.4626029133796692,
+      0.886565625667572,
+      0.2532338798046112,
+      -0.9674050807952881
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150559.4922583,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4414498805999756,
+      0.8972858786582947,
+      0.9015766978263855,
+      0.4326193034648895,
+      0.4414498805999756,
+      0.8972858786582947
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150559.5877552,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8010429739952087,
+      -0.5986068844795227,
+      0.9880362749099731,
+      -0.1542218178510666,
+      -0.8010429739952087,
+      -0.5986068844795227
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150559.6923885,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9875975847244263,
+      -0.1570064127445221,
+      0.688284158706665,
+      -0.7254412174224854,
+      0.9875975847244263,
+      -0.1570064127445221
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 32.0
+  },
+  {
+    "timestamp": 1764150559.7893012,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7950465679168701,
+      0.6065483689308167,
+      0.15258193016052246,
+      -0.9882908463478088,
+      -0.7950465679168701,
+      0.6065483689308167
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150559.8911266,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.2085253745317459,
+      -0.9780169725418091,
+      -0.469379723072052,
+      -0.8829964399337769,
+      0.2085253745317459,
+      -0.9780169725418091
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150559.9918616,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.4216611385345459,
+      0.9067534804344177,
+      -0.8999889492988586,
+      -0.43591272830963135,
+      0.4216611385345459,
+      0.9067534804344177
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150560.0882552,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8000399470329285,
+      -0.5999467372894287,
+      -0.9880791902542114,
+      0.1539463996887207,
+      -0.8000399470329285,
+      -0.5999467372894287
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150560.1934354,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9857701659202576,
+      -0.16809874773025513,
+      -0.6869235634803772,
+      0.726729691028595,
+      0.9857701659202576,
+      -0.16809874773025513
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 31.0
+  },
+  {
+    "timestamp": 1764150560.304351,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.3534056842327118,
+      0.9354701638221741,
+      -0.06016463786363602,
+      0.9981884956359863,
+      -0.3534056842327118,
+      0.9354701638221741
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150560.401414,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.1818794310092926,
+      -0.9833208322525024,
+      0.5261628031730652,
+      0.8503838777542114,
+      -0.1818794310092926,
+      -0.9833208322525024
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150560.497373,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6017530560493469,
+      0.7986822128295898,
+      0.9147196412086487,
+      0.4040891230106354,
+      0.6017530560493469,
+      0.7986822128295898
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150560.5922883,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8869889974594116,
+      -0.46179062128067017,
+      0.9835202693939209,
+      -0.1807977855205536,
+      -0.8869889974594116,
+      -0.46179062128067017
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150560.7067626,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7850441336631775,
+      -0.6194398999214172,
+      0.6241628527641296,
+      -0.7812942862510681,
+      0.7850441336631775,
+      -0.6194398999214172
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150560.8034053,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.37726837396621704,
+      0.926103949546814,
+      0.06442911922931671,
+      -0.9979223012924194,
+      -0.37726837396621704,
+      0.926103949546814
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150560.8983157,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.05587416887283325,
+      -0.9984378218650818,
+      -0.5080474615097046,
+      -0.8613290786743164,
+      -0.05587416887283325,
+      -0.9984378218650818
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150560.9913173,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.41316094994544983,
+      0.9106580018997192,
+      -0.8993081450462341,
+      -0.43731552362442017,
+      0.41316094994544983,
+      0.9106580018997192
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150561.1044028,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9996209740638733,
+      -0.027530517429113388,
+      -0.9671033024787903,
+      0.25438404083251953,
+      -0.9996209740638733,
+      -0.027530517429113388
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 19.0
+  },
+  {
+    "timestamp": 1764150561.201324,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8940466642379761,
+      -0.4479737877845764,
+      -0.6503016352653503,
+      0.7596760988235474,
+      0.8940466642379761,
+      -0.4479737877845764
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150561.2954109,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6221352815628052,
+      0.7829097509384155,
+      -0.11167719960212708,
+      0.9937445521354675,
+      -0.6221352815628052,
+      0.7829097509384155
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150561.3867848,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.3816799521446228,
+      -0.9242945313453674,
+      0.44245120882987976,
+      0.8967925906181335,
+      0.3816799521446228,
+      -0.9242945313453674
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150561.4839213,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.16101768612861633,
+      0.9869515299797058,
+      0.8791861534118652,
+      0.4764783978462219,
+      0.16101768612861633,
+      0.9869515299797058
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150561.5807896,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6086285710334778,
+      -0.7934552431106567,
+      0.9940593242645264,
+      -0.10883940756320953,
+      -0.6086285710334778,
+      -0.7934552431106567
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150561.67659,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8926073908805847,
+      0.4508347809314728,
+      0.7600226402282715,
+      -0.6498966217041016,
+      0.8926073908805847,
+      0.4508347809314728
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150561.7692862,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9953270554542542,
+      -0.09656140953302383,
+      0.27435392141342163,
+      -0.961628794670105,
+      -0.9953270554542542,
+      -0.09656140953302383
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150561.870885,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8309792280197144,
+      -0.5563034415245056,
+      -0.35238802433013916,
+      -0.9358540177345276,
+      0.8309792280197144,
+      -0.5563034415245056
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150561.9644403,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5597262978553772,
+      0.8286775350570679,
+      -0.8123605251312256,
+      -0.5831555128097534,
+      -0.5597262978553772,
+      0.8286775350570679
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150562.0572388,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.24079346656799316,
+      -0.9705764055252075,
+      -0.9991787672042847,
+      -0.040519099682569504,
+      0.24079346656799316,
+      -0.9705764055252075
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150562.1528916,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.22453953325748444,
+      0.974465012550354,
+      -0.8465403318405151,
+      0.5323245525360107,
+      0.22453953325748444,
+      0.974465012550354
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150562.2554767,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8072845935821533,
+      -0.5901623368263245,
+      -0.3588252067565918,
+      0.9334047436714172,
+      -0.8072845935821533,
+      -0.5901623368263245
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150562.3533387,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9970554113388062,
+      0.07668477296829224,
+      0.24644100666046143,
+      0.9691578149795532,
+      0.9970554113388062,
+      0.07668477296829224
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150562.4479668,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9328595399856567,
+      0.3602403402328491,
+      0.7491773962974548,
+      0.662369430065155,
+      -0.9328595399856567,
+      0.3602403402328491
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150562.5423284,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.7306464910507202,
+      -0.6827559471130371,
+      0.9906922578811646,
+      0.13612063229084015,
+      0.7306464910507202,
+      -0.6827559471130371
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150562.6434913,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.12475261837244034,
+      0.9921878576278687,
+      0.8762596249580383,
+      -0.48183923959732056,
+      -0.12475261837244034,
+      0.9921878576278687
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150562.7398694,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.3698432445526123,
+      -0.9290941953659058,
+      0.44435903429985046,
+      -0.8958487510681152,
+      -0.3698432445526123,
+      -0.9290941953659058
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150562.8338258,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6808645129203796,
+      0.7324093580245972,
+      -0.12450000643730164,
+      -0.9922196269035339,
+      0.6808645129203796,
+      0.7324093580245972
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150562.9269745,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9064079523086548,
+      -0.42240339517593384,
+      -0.65389084815979,
+      -0.756588876247406,
+      -0.9064079523086548,
+      -0.42240339517593384
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150563.0324802,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9254510402679443,
+      -0.37886714935302734,
+      -0.9806509017944336,
+      -0.1957647204399109,
+      0.9254510402679443,
+      -0.37886714935302734
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 25.0
+  },
+  {
+    "timestamp": 1764150563.1260955,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6977607011795044,
+      0.716330885887146,
+      -0.9230396747589111,
+      0.38470473885536194,
+      -0.6977607011795044,
+      0.716330885887146
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150563.2189944,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.3952033817768097,
+      -0.9185936450958252,
+      -0.5574517250061035,
+      0.8302093744277954,
+      0.3952033817768097,
+      -0.9185936450958252
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150563.3129542,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.039027139544487,
+      0.999238133430481,
+      -0.006505745463073254,
+      0.9999788403511047,
+      -0.039027139544487,
+      0.999238133430481
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150563.4119983,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5374580025672913,
+      -0.8432905077934265,
+      0.5795438289642334,
+      0.8149410486221313,
+      -0.5374580025672913,
+      -0.8432905077934265
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150563.5153663,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9676172137260437,
+      0.2524220943450928,
+      0.9540480375289917,
+      0.2996537685394287,
+      0.9676172137260437,
+      0.2524220943450928
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 31.0
+  },
+  {
+    "timestamp": 1764150563.6053627,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9998294711112976,
+      0.0184654351323843,
+      0.9651246666908264,
+      -0.26179078221321106,
+      -0.9998294711112976,
+      0.0184654351323843
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 18.0
+  },
+  {
+    "timestamp": 1764150563.7400694,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.35129445791244507,
+      -0.9362650513648987,
+      0.4473258852958679,
+      -0.8943710327148438,
+      -0.35129445791244507,
+      -0.9362650513648987
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150563.8603811,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9829540252685547,
+      -0.18385149538516998,
+      -0.2884586751461029,
+      -0.9574923515319824,
+      0.9829540252685547,
+      -0.18385149538516998
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150563.9489398,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9204735159873962,
+      0.3908049762248993,
+      -0.7528069019317627,
+      -0.6582414507865906,
+      -0.9204735159873962,
+      0.3908049762248993
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 17.0
+  },
+  {
+    "timestamp": 1764150564.0460086,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6216960549354553,
+      -0.7832585573196411,
+      -0.9937549233436584,
+      -0.11158447712659836,
+      0.6216960549354553,
+      -0.7832585573196411
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150564.1373982,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.366924524307251,
+      0.9302507042884827,
+      -0.8956159353256226,
+      0.4448280930519104,
+      -0.366924524307251,
+      0.9302507042884827
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150564.237594,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.2564852237701416,
+      -0.9665481448173523,
+      -0.4621050953865051,
+      0.8868251442909241,
+      -0.2564852237701416,
+      -0.9665481448173523
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 21.0
+  },
+  {
+    "timestamp": 1764150564.3339717,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6969262361526489,
+      0.7171428203582764,
+      0.128164142370224,
+      0.9917529821395874,
+      0.6969262361526489,
+      0.7171428203582764
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150564.4274647,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9053031206130981,
+      -0.4247661232948303,
+      0.6535622477531433,
+      0.7568727731704712,
+      -0.9053031206130981,
+      -0.4247661232948303
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150564.5218644,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9998080730438232,
+      0.019591346383094788,
+      0.965075671672821,
+      0.2619713544845581,
+      0.9998080730438232,
+      0.019591346383094788
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150564.6242025,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7410925626754761,
+      0.6714029312133789,
+      0.9269923567771912,
+      -0.3750801682472229,
+      -0.7410925626754761,
+      0.6714029312133789
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150564.7243745,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.20383426547050476,
+      -0.9790053963661194,
+      0.5293298363685608,
+      -0.8484160900115967,
+      0.20383426547050476,
+      -0.9790053963661194
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150564.823936,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.38294658064842224,
+      0.9237704873085022,
+      -0.06545090675354004,
+      -0.9978557825088501,
+      0.38294658064842224,
+      0.9237704873085022
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150564.9185143,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.7236804962158203,
+      -0.6901351809501648,
+      -0.6118936538696289,
+      -0.7909400463104248,
+      -0.7236804962158203,
+      -0.6901351809501648
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150565.018954,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9925793409347534,
+      0.12159872055053711,
+      -0.9604685306549072,
+      -0.2783885598182678,
+      0.9925793409347534,
+      0.12159872055053711
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150565.1155643,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9283645153045654,
+      0.37167105078697205,
+      -0.9475651979446411,
+      0.31956255435943604,
+      -0.9283645153045654,
+      0.37167105078697205
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150565.2095468,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6953300833702087,
+      -0.7186905145645142,
+      -0.6065747737884521,
+      0.7950264811515808,
+      0.6953300833702087,
+      -0.7186905145645142
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150565.305454,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.3188081681728363,
+      0.9478192329406738,
+      -0.054052047431468964,
+      0.9985381364822388,
+      -0.3188081681728363,
+      0.9478192329406738
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150565.409518,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.4407363533973694,
+      -0.8976365923881531,
+      0.5643688440322876,
+      0.8255227208137512,
+      -0.4407363533973694,
+      -0.8976365923881531
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150565.5052948,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.804377555847168,
+      0.5941184759140015,
+      0.9331106543540955,
+      0.3595893383026123,
+      0.804377555847168,
+      0.5941184759140015
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150565.6011567,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9877550005912781,
+      -0.15601298213005066,
+      0.9723533391952515,
+      -0.2335144728422165,
+      -0.9877550005912781,
+      -0.15601298213005066
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150565.6953945,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9673579931259155,
+      -0.2534137964248657,
+      0.6762770414352417,
+      -0.736647367477417,
+      0.9673579931259155,
+      -0.2534137964248657
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150565.795487,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.6181506514549255,
+      0.7860596179962158,
+      0.11083638668060303,
+      -0.9938386678695679,
+      -0.6181506514549255,
+      0.7860596179962158
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150565.889447,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.270906001329422,
+      -0.9626058340072632,
+      -0.4598946273326874,
+      -0.8879734873771667,
+      0.270906001329422,
+      -0.9626058340072632
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150565.9838889,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.1616172194480896,
+      0.9868535399436951,
+      -0.879234254360199,
+      -0.47638964653015137,
+      0.1616172194480896,
+      0.9868535399436951
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150566.0765028,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.4574563205242157,
+      -0.8892320990562439,
+      -0.9968662261962891,
+      0.07910609990358353,
+      -0.4574563205242157,
+      -0.8892320990562439
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150566.1801932,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9464933276176453,
+      0.3227234482765198,
+      -0.7447535395622253,
+      0.6673396229743958,
+      0.9464933276176453,
+      0.3227234482765198
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150566.2764382,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9829414486885071,
+      0.18391883373260498,
+      -0.2289220690727234,
+      0.9734447598457336,
+      -0.9829414486885071,
+      0.18391883373260498
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150566.3710165,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.829876720905304,
+      -0.5579467415809631,
+      0.3526965081691742,
+      0.9357377886772156,
+      0.829876720905304,
+      -0.5579467415809631
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 24.0
+  },
+  {
+    "timestamp": 1764150566.46344,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.5907290577888489,
+      0.8068699836730957,
+      0.808660089969635,
+      0.588276207447052,
+      -0.5907290577888489,
+      0.8068699836730957
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150566.5664752,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.0983390063047409,
+      -0.9951529502868652,
+      0.9998652338981628,
+      -0.016415974125266075,
+      -0.0983390063047409,
+      -0.9951529502868652
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150566.6639109,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.6058080792427063,
+      0.795610785484314,
+      0.8068106174468994,
+      -0.5908101797103882,
+      0.6058080792427063,
+      0.795610785484314
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150566.757483,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8609447479248047,
+      -0.5086984634399414,
+      0.3435969650745392,
+      -0.9391171932220459,
+      -0.8609447479248047,
+      -0.5086984634399414
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150566.852996,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.9947428107261658,
+      0.10240484029054642,
+      -0.24226762354373932,
+      -0.9702094793319702,
+      0.9947428107261658,
+      0.10240484029054642
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150566.9544713,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.8218411207199097,
+      0.5697166919708252,
+      -0.7748168706893921,
+      -0.6321857571601868,
+      -0.8218411207199097,
+      0.5697166919708252
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150567.048214,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.5434497594833374,
+      -0.83944171667099,
+      -0.9954188466072083,
+      -0.09561024606227875,
+      0.5434497594833374,
+      -0.83944171667099
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150567.1413553,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.21930499374866486,
+      0.9756563305854797,
+      -0.883858323097229,
+      0.46775466203689575,
+      -0.21930499374866486,
+      0.9756563305854797
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150567.2385287,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.30984947085380554,
+      -0.9507856369018555,
+      -0.4538600742816925,
+      0.8910729885101318,
+      -0.30984947085380554,
+      -0.9507856369018555
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 23.0
+  },
+  {
+    "timestamp": 1764150567.3421893,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      0.8894016146659851,
+      0.4571266174316406,
+      0.18165872991085052,
+      0.9833616614341736,
+      0.8894016146659851,
+      0.4571266174316406
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  },
+  {
+    "timestamp": 1764150567.4371932,
+    "manipulation_score": NaN,
+    "resonance_phases": [
+      -0.9993805885314941,
+      -0.03519188612699509,
+      0.7029468417167664,
+      0.7112424373626709,
+      -0.9993805885314941,
+      -0.03519188612699509
+    ],
+    "screen_energy": NaN,
+    "yolo_count": 0,
+    "gamepad_buttons": 0,
+    "network_rtt": 22.0
+  }
+]

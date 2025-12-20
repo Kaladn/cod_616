@@ -1,0 +1,114 @@
+# ╔══════════════════════════════════════════════════════════════════════════════╗
+# ║                                                                              ║
+# ║     CompuCog — Sovereign Cognitive Defense System                           ║
+# ║     Intellectual Property of Cortex Evolved / L.A. Mercey                   ║
+# ║                                                                              ║
+# ║     Copyright © 2025 Cortex Evolved. All Rights Reserved.                   ║
+# ║                                                                              ║
+# ║     "We use unconventional digital wisdom —                                  ║
+# ║        because conventional digital wisdom doesn't protect anyone."         ║
+# ║                                                                              ║
+# ║     This software is proprietary and confidential.                           ║
+# ║     Unauthorized access, copying, modification, or distribution             ║
+# ║     is strictly prohibited and may violate applicable laws.                  ║
+# ║                                                                              ║
+# ║     File automatically watermarked on: 2025-11-29 19:21:12                           ║
+# ║                                                                              ║
+# ╚══════════════════════════════════════════════════════════════════════════════╝
+
+# Gaming Domain Configuration
+
+# Domain enable (also controlled by master config)
+enabled: true
+
+# Game detection
+game_detection:
+  auto_detect: true
+  known_games:
+    - name: "COD"
+      process_names: ["cod.exe", "ModernWarfare.exe", "BlackOps6.exe"]
+      window_titles: ["Call of Duty"]
+    - name: "BF"
+      process_names: ["bf2042.exe", "Battlefield.exe"]
+      window_titles: ["Battlefield"]
+    - name: "Apex"
+      process_names: ["r5apex.exe"]
+      window_titles: ["Apex Legends"]
+
+# Enabled operators (Gaming Domain)
+operators:
+  enabled:
+    - flicker_detector
+    - hud_stability
+    - crosshair_motion
+    - peripheral_flash
+    - color_shift
+  
+  # Operator-specific configs
+  flicker_detector:
+    threshold: 2  # Min palette change to count as flip
+    min_flips: 3  # Min flips in window to count as flicker
+    alert_ratio: 0.05  # Alert if >5% of cells flickering
+  
+  hud_stability:
+    hud_regions:
+      top_bar: {y: 0.0, height: 0.1}
+      bottom_bar: {y: 0.9, height: 0.1}
+      minimap: {x: 0.85, y: 0.05, width: 0.12, height: 0.12}
+    max_change_ratio: 0.02  # Alert if HUD changes >2%
+  
+  crosshair_motion:
+    center_region: {x: 0.35, y: 0.35, width: 0.30, height: 0.30}
+    smoothness_threshold: 0.95  # Unnatural smoothness (aim-assist)
+    snap_threshold: 5  # Palette units snap distance
+  
+  peripheral_flash:
+    edge_width: 0.15  # Width of peripheral region
+    flash_threshold: 3  # Min palette change to count as flash
+    alert_ratio: 0.1  # Alert if >10% of periphery flashing
+  
+  color_shift:
+    histogram_bins: 10  # Match palette size
+    shift_threshold: 0.3  # Earth-mover distance threshold
+
+# Core Loop configuration
+core_loop:
+  # SELECT stage
+  operator_selection_strategy: "contextual"  # Run relevant operators based on game state
+  
+  # EVALUATE stage
+  anomaly_thresholds:
+    flicker: 0.7
+    hud_instability: 0.8
+    aim_assist: 0.75
+    peripheral_manipulation: 0.7
+    eomm_fogging: 0.65
+
+# Output configuration
+output:
+  # Gaming fingerprint format
+  fingerprint_interval_sec: 1.0  # One fingerprint per second
+  
+  # Features to export
+  features:
+    - hud_stability_score
+    - flicker_score
+    - crosshair_stutter_score
+    - snap_score
+    - peripheral_flash_score
+    - color_shift_score
+  
+  # Logging
+  log_fingerprints: true
+  log_dir: "gaming/logs"
+  log_file_pattern: "gaming_fingerprint_{date}.jsonl"
+  
+  # Real-time alerts
+  alerts_enabled: true
+  alert_cooldown_sec: 5  # Min time between alerts for same pattern
+
+# Integration with CompuCog
+compucog_export:
+  enabled: true
+  export_to_merger: true
+  correlation_enabled: true  # Correlate with network/input/reflex sensors
