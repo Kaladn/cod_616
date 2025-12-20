@@ -26,6 +26,10 @@ jobs:
         run: |
           pytest -q
 
+      - name: Validate temporal contract samples
+        run: |
+          python scripts/validate_temporal_contract.py CompuCogLogger/logs/**/*.sample.contract.jsonl || true
+
       - name: Optional: generate artifacts (gated)
         if: env.RUN_ARTIFACTS == 'true'
         run: |
