@@ -116,3 +116,17 @@ If you'd like, I can start working on the in-progress task (#1) now and open a P
 - add unit tests and a small smoke harness test.
 
 If you'd like me to open a draft PR for the SVE work now, say "open PR" (GH auth required) or push and I can open it for you.
+
+---
+
+### New housekeeping tasks (added as next actions)
+
+32. **Workspace introspection & pruning (keep-list validation)** (not-started)
+    - Goal: Run a full workspace introspection, compare files to the keep-list, and produce a prune plan (archive/delete candidates) with roll-back safety.
+    - Deliverables: `WORKSPACE_INTROSPECTION_PRUNE_PLAN.md` listing files to archive, move, or delete; a small script `tools/prune_workspace.py` to perform safe moves to `archive/`.
+
+33. **Prune/archive `arc_organ` & ARC artifacts if not on keep list** (not-started)
+    - Goal: If `arc_organ` and related artifacts are not marked **K**, move them to `archive/arc_organ-YYYYMMDD/` and update README to record the archive location.
+    - Safety: All moves are reversible; files are not deleted permanently until you confirm.
+
+When you say **"run introspection"**, I'll mark task 32 `in-progress`, run the analysis, and produce the prune plan for your review.
