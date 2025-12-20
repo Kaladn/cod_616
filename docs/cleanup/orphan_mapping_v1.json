@@ -66,8 +66,8 @@
   },
   {
     "path": "TruVision_files/test_temporal_backbone.py",
-    "category": "ARCHIVE",
-    "rationale": "Temporal backbone tests tied to archived toolset; archive with context"
+    "category": "TEST",
+    "rationale": "Temporal backbone test tied to invariants; keep with tests/tooling"
   },
   {
     "path": "TruVision_files/session_baseline.py",
