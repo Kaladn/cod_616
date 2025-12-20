@@ -1,0 +1,187 @@
+[
+  {
+    "path": "TruVision_files/analyze_combat.py",
+    "category": "ARCHIVE",
+    "rationale": "Legacy forensic analysis script; archival reference, not used by main tests or runtime"
+  },
+  {
+    "path": "TruVision_files/analyze_correlations.py",
+    "category": "ARCHIVE",
+    "rationale": "Legacy analysis; suitable for archival storage (forensics)"
+  },
+  {
+    "path": "TruVision_files/analyze_fingerprints.py",
+    "category": "ARCHIVE",
+    "rationale": "Exploratory fingerprint analysis; not part of production pipeline"
+  },
+  {
+    "path": "TruVision_files/check_forge_size.py",
+    "category": "ARCHIVE",
+    "rationale": "Utility for local forensic checks; archival candidate"
+  },
+  {
+    "path": "TruVision_files/deep_analysis.py",
+    "category": "ARCHIVE",
+    "rationale": "Heavy analysis/reporting script used for forensic exploration"
+  },
+  {
+    "path": "TruVision_files/extract_baselines.py",
+    "category": "ARCHIVE",
+    "rationale": "One-off baseline extraction utilities derived from archived telemetry"
+  },
+  {
+    "path": "TruVision_files/fuse_telemetry.py",
+    "category": "ARCHIVE",
+    "rationale": "Legacy telemetry fusion tooling; keep for reference"
+  },
+  {
+    "path": "TruVision_files/gaming_sensor.py",
+    "category": "ARCHIVE",
+    "rationale": "Legacy sensor adaptor used in archived experiments"
+  },
+  {
+    "path": "TruVision_files/migrate_timestamps.py",
+    "category": "ARCHIVE",
+    "rationale": "Migration helper for historical telemetry timestamps; archival"
+  },
+  {
+    "path": "TruVision_files/show_math.py",
+    "category": "ARCHIVE",
+    "rationale": "Notebook-style math/visualization utilities for forensic analysis"
+  },
+  {
+    "path": "TruVision_files/FORENSIC_ANALYSIS.md",
+    "category": "ARCHIVE",
+    "rationale": "Forensic analysis notes and documentation; archival reference"
+  },
+  {
+    "path": "TruVision_files/truevision_live_run.py",
+    "category": "ARCHIVE",
+    "rationale": "Legacy runner used in live experiments; keep as historic run reference"
+  },
+  {
+    "path": "TruVision_files/truevision_smoke_test.py",
+    "category": "ARCHIVE",
+    "rationale": "Smoke test harness specific to archived data; archival candidate"
+  },
+  {
+    "path": "TruVision_files/test_temporal_backbone.py",
+    "category": "ARCHIVE",
+    "rationale": "Temporal backbone tests tied to archived toolset; archive with context"
+  },
+  {
+    "path": "TruVision_files/session_baseline.py",
+    "category": "ARCHIVE",
+    "rationale": "Baseline migration/processing script from legacy TrueVision toolchain"
+  },
+  {
+    "path": "scripts/retrospect.py",
+    "category": "TEST",
+    "rationale": "Retrospection tooling used to generate inventory; keep as tooling"
+  },
+  {
+    "path": "gaming/cli.py",
+    "category": "TEST",
+    "rationale": "Lightweight CLI for gaming analytics / example runner; keep as tooling"
+  },
+  {
+    "path": "recognition/recognition_cli.py",
+    "category": "TEST",
+    "rationale": "CLI for recognition module used in demos/tests; retain for testing"
+  },
+  {
+    "path": "modules/audio_capture.py",
+    "category": "TEST",
+    "rationale": "Audio capture helper used by integration tests; keep until audio pipeline stabilized"
+  },
+  {
+    "path": "modules/audio_resonance_state.py",
+    "category": "TEST",
+    "rationale": "Audio resonance state helpers referenced by tests/examples"
+  },
+  {
+    "path": "modules/__init__.py",
+    "category": "TEST",
+    "rationale": "Package initializer for modules; keep to preserve package semantics"
+  },
+  {
+    "path": "gaming/artifact_validator.py",
+    "category": "TEST",
+    "rationale": "Lightweight validator for generated artifacts used in CI; keep"
+  },
+  {
+    "path": "gaming/__init__.py",
+    "category": "TEST",
+    "rationale": "Package initializer; keep"
+  },
+  {
+    "path": "cod_live_runner.py",
+    "category": "DEAD",
+    "rationale": "Old runner script not referenced by tests or tooling; candidate for removal after review"
+  },
+  {
+    "path": "test_audio_integration.py",
+    "category": "TEST",
+    "rationale": "Integration test present but not referenced by other scripts; keep for now"
+  },
+  {
+    "path": "test_fusion_audio.py",
+    "category": "TEST",
+    "rationale": "Unit test for fusion audio; keep"
+  },
+  {
+    "path": "test_match_fingerprint_builder.py",
+    "category": "TEST",
+    "rationale": "Unit test for fingerprint builder; keep"
+  },
+  {
+    "path": "test_phase_7.py",
+    "category": "TEST",
+    "rationale": "Scenario test for Phase 7; keep as historical test"
+  },
+  {
+    "path": "test_profile.py",
+    "category": "TEST",
+    "rationale": "Profiling test; keep"
+  },
+  {
+    "path": "event_system/__init__.py",
+    "category": "TEST",
+    "rationale": "Event system shim used in harness tests; keep"
+  },
+  {
+    "path": "forge_memory/__init__.py",
+    "category": "TEST",
+    "rationale": "Forge memory shim; retain for test harness compatibility"
+  },
+  {
+    "path": "tests/test_harness_playback.py",
+    "category": "TEST",
+    "rationale": "Harness playback test; keep"
+  },
+  {
+    "path": "tests/test_metrics.py",
+    "category": "TEST",
+    "rationale": "Metrics unit tests; keep"
+  },
+  {
+    "path": "tests/test_plotting_and_examples.py",
+    "category": "TEST",
+    "rationale": "Plotting and example generation tests; keep"
+  },
+  {
+    "path": "tests/test_session_diff.py",
+    "category": "TEST",
+    "rationale": "Session diff tests; keep"
+  },
+  {
+    "path": "tests/test_session_playback.py",
+    "category": "TEST",
+    "rationale": "Session playback tests; keep"
+  },
+  {
+    "path": "tests/test_truevision_adapter.py",
+    "category": "TEST",
+    "rationale": "Adapter tests (use sample telemetry); keep"
+  }
+]
