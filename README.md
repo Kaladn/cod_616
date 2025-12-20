@@ -4,6 +4,8 @@
 **Architecture:** Signal-first ML, Physics-first perception, Cognition-first fusion  
 **Purpose:** Real-time game manipulation detection via multimodal telemetry fusion
 
+**Continuous Integration:** Added a GitHub Actions workflow at `.github/workflows/ci.yml` to run unit tests and harness smoke tests on push / PR. The test suite includes `tests/test_truevision_adapter.py` and `tests/test_harness_playback.py`.
+
 ---
 
 ## 🔥 What This Is

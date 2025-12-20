@@ -63,13 +63,8 @@ class CognitiveHarness:
         data_dir: str = "./forge_data",
         enable_events: bool = True,
         event_threshold: float = 0.7,
-        session_id: str = None,
-        load_operators: bool = True
+        session_id: str = None
     ):
-        """Add `load_operators` flag to allow harness instantiation in test contexts
-        without requiring on-disk operator YAML configs or heavy dependencies.
-        """
-        self.load_operators = load_operators
         """
         Initialize cognitive harness.
         
@@ -102,7 +97,7 @@ class CognitiveHarness:
             print("\n[Layer 2] Initializing EventManager...")
             self.event_mgr = EventManager(chronos_manager=self.chronos)
             
-            # Register base sources
+            # Register sources
             self.event_mgr.register_source("vision", "organ", {"type": "TrueVision"})
             self.event_mgr.register_source("operators", "detector", {"type": "TrueVisionOperators"})
             self.event_mgr.register_source("session", "tracker", {"type": "SessionTracker"})
@@ -118,55 +113,6 @@ class CognitiveHarness:
                 }
             )
             print(f"  ✓ Session chain created: {self.session_id}")
-
-            # Activity logger integration (optional) — tolerant to missing modules
-            try:
-                from loggers.activity_integration import integrate_activity_logger
-                self.activity_service = integrate_activity_logger(self.event_mgr, self.config)
-                if self.activity_service is not None:
-                    print("  ✓ ActivityLogger started and registered as source 'activity'")
-                else:
-                    print("  - ActivityLogger not enabled by config or env")
-            except Exception:
-                self.activity_service = None
-                print("  - ActivityLogger not available (skipping)")
-
-            # Input logger integration (optional)
-            try:
-                from loggers.input_integration import integrate_input_logger
-                self.input_service = integrate_input_logger(self.event_mgr, self.config)
-                if self.input_service is not None:
-                    print("  ✓ InputLogger started and registered as source 'input'")
-                else:
-                    print("  - InputLogger not enabled by config or env")
-            except Exception:
-                self.input_service = None
-                print("  - InputLogger not available (skipping)")
-
-            # Process logger integration (optional)
-            try:
-                from loggers.process_integration import integrate_process_logger
-                self.process_service = integrate_process_logger(self.event_mgr, self.config)
-                if self.process_service is not None:
-                    print("  ✓ ProcessLogger started and registered as source 'process'")
-                else:
-                    print("  - ProcessLogger not enabled by config or env")
-            except Exception:
-                self.process_service = None
-                print("  - ProcessLogger not available (skipping)")
-
-            # Network logger integration (optional)
-            try:
-                from loggers.network_integration import integrate_network_logger
-                self.network_service = integrate_network_logger(self.event_mgr, self.config)
-                if self.network_service is not None:
-                    print("  ✓ NetworkLogger started and registered as source 'network'")
-                else:
-                    print("  - NetworkLogger not enabled by config or env")
-            except Exception:
-                self.network_service = None
-                print("  - NetworkLogger not available (skipping)")
-
         else:
             self.event_mgr = None
             print("\n[Layer 2] EventManager disabled (--no-events)")
@@ -176,19 +122,8 @@ class CognitiveHarness:
         
         # Load main integration config FIRST (needed for Forge config)
         config_path = Path(__file__).parent / "config" / "truevision_integration.yaml"
-        try:
-            with open(config_path) as f:
-                self.config = yaml.safe_load(f)
-        except Exception:
-            # Fallback minimal config for test contexts
-            print(f"[WARN] Integration config {config_path} missing. Using default minimal config for tests.")
-            self.config = {
-                "forge": {"pulse_config": {}},
-                "capture": {"source": "stub", "region": "full"},
-                "grid": {"target_height": 32, "target_width": 32},
-                "operators": {"crosshair_lock": {"enabled": True}, "edge_entry": {"enabled": True}, "hit_registration": {"enabled": True}, "death_event": {"enabled": True}},
-                "session_baseline": {"enabled": False}
-            }
+        with open(config_path) as f:
+            self.config = yaml.safe_load(f)
         
         # Layer 0: Forge Memory (storage) - using config values
         print("\n[Layer 0] Initializing Forge Memory...")
@@ -229,45 +164,37 @@ class CognitiveHarness:
         self.frame_capture = FrameCapture(capture_config)
         self.frame_to_grid = FrameToGrid(capture_config)
         
-        # Initialize operators from config (optional in test contexts)
+        # Initialize operators from config
         operators_config = self.config.get("operators", {})
         config_base = Path(__file__).parent / "config" / "operators"
-
-        if self.load_operators:
-            if operators_config.get("crosshair_lock", {}).get("enabled", True):
-                crosshair_config = str(config_base / "crosshair_lock.yaml")
-                self.crosshair_op = CrosshairLockOperator(crosshair_config)
-                print(f"  ✓ Crosshair Lock operator loaded")
-            else:
-                self.crosshair_op = None
-
-            if operators_config.get("hit_registration", {}).get("enabled", True):
-                hit_config = str(config_base / "hit_registration.yaml")
-                self.hit_op = HitRegistrationOperator(hit_config)
-                print(f"  ✓ Hit Registration operator loaded")
-            else:
-                self.hit_op = None
-
-            if operators_config.get("death_event", {}).get("enabled", True):
-                death_config = str(config_base / "death_event.yaml")
-                self.death_op = DeathEventOperator(death_config)
-                print(f"  ✓ Death Event operator loaded")
-            else:
-                self.death_op = None
-
-            if operators_config.get("edge_entry", {}).get("enabled", True):
-                edge_config = str(config_base / "edge_entry.yaml")
-                self.edge_op = EdgeEntryOperator(edge_config)
-                print(f"  ✓ Edge Entry operator loaded")
-            else:
-                self.edge_op = None
+        
+        if operators_config.get("crosshair_lock", {}).get("enabled", True):
+            crosshair_config = str(config_base / "crosshair_lock.yaml")
+            self.crosshair_op = CrosshairLockOperator(crosshair_config)
+            print(f"  ✓ Crosshair Lock operator loaded")
         else:
-            # In test contexts or when operator configs are unavailable, skip operator instantiation
             self.crosshair_op = None
+        
+        if operators_config.get("hit_registration", {}).get("enabled", True):
+            hit_config = str(config_base / "hit_registration.yaml")
+            self.hit_op = HitRegistrationOperator(hit_config)
+            print(f"  ✓ Hit Registration operator loaded")
+        else:
             self.hit_op = None
+        
+        if operators_config.get("death_event", {}).get("enabled", True):
+            death_config = str(config_base / "death_event.yaml")
+            self.death_op = DeathEventOperator(death_config)
+            print(f"  ✓ Death Event operator loaded")
+        else:
             self.death_op = None
+        
+        if operators_config.get("edge_entry", {}).get("enabled", True):
+            edge_config = str(config_base / "edge_entry.yaml")
+            self.edge_op = EdgeEntryOperator(edge_config)
+            print(f"  ✓ Edge Entry operator loaded")
+        else:
             self.edge_op = None
-            print("  - Operator loading skipped (test-mode)")
         
         # EOMM compositor
         eomm_config = str(Path(__file__).parent / "config" / "eomm_compositor.yaml")
@@ -345,23 +272,7 @@ class CognitiveHarness:
         # Operator trigger events
         if operator_flags:
             self._record_operator_events(window, operator_flags)
-
-    def process_sve_state(self, state) -> None:
-        """Process a `ScreenVectorState` directly (used for playback tests).
-
-        This method converts the minimal SVE state into a telemetry window
-        and forwards it to the normal `process_window` pipeline. It intentionally
-        keeps mappings conservative and deterministic (no temporal smoothing or
-        signal folding).
-        """
-        try:
-            from gaming.truevision_adapter import screen_vector_state_to_window
-        except Exception:
-            # Fallback for relative import contexts
-            from CompuCog_Visual_v2.gaming.truevision_adapter import screen_vector_state_to_window
-
-        window = screen_vector_state_to_window(state)
-        return self.process_window(window)    
+    
     def _record_high_eomm_event(self, window: Dict[str, Any], eomm_score: float) -> None:
         """Record high EOMM detection event."""
         self.high_eomm_count += 1
@@ -616,46 +527,6 @@ class CognitiveHarness:
             self.binary_log.close()  # Close memory-mapped file
         except Exception as e:
             print(f"    ❌ Close error: {e}")
-            import traceback
-            traceback.print_exc()
-
-        # Stop activity logger if started
-        try:
-            if getattr(self, 'activity_service', None) is not None:
-                self.activity_service.stop()
-                print("  ✓ ActivityLogger stopped")
-        except Exception as e:
-            print(f"    ❌ ActivityLogger stop error: {e}")
-            import traceback
-            traceback.print_exc()
-
-        # Stop input logger if started
-        try:
-            if getattr(self, 'input_service', None) is not None:
-                self.input_service.stop()
-                print("  ✓ InputLogger stopped")
-        except Exception as e:
-            print(f"    ❌ InputLogger stop error: {e}")
-            import traceback
-            traceback.print_exc()
-
-        # Stop process logger if started
-        try:
-            if getattr(self, 'process_service', None) is not None:
-                self.process_service.stop()
-                print("  ✓ ProcessLogger stopped")
-        except Exception as e:
-            print(f"    ❌ ProcessLogger stop error: {e}")
-            import traceback
-            traceback.print_exc()
-
-        # Stop network logger if started
-        try:
-            if getattr(self, 'network_service', None) is not None:
-                self.network_service.stop()
-                print("  ✓ NetworkLogger stopped")
-        except Exception as e:
-            print(f"    ❌ NetworkLogger stop error: {e}")
             import traceback
             traceback.print_exc()
         
