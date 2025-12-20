@@ -1,5 +1,7 @@
 run/latest — Runnable branch
 
+**Note:** This branch is for running tests and demos only.
+
 This branch (`run/latest`) is a stable, runnable signpost created from `chore/cleanup-baselines`.
 
 Purpose:
