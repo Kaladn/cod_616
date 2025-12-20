@@ -1,0 +1,4 @@
+# Add patterns to ignore local files
+TruVision_files/forge_data/
+__pycache__/
+*.pyc

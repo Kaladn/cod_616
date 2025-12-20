@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.11]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest matplotlib
+      - name: Run tests
+        run: |
+          pytest -q
+
+      - name: Optional: generate artifacts (gated)
+        if: env.RUN_ARTIFACTS == 'true'
+        run: |
+          python -m gaming.cli run --jsonl TruVision_files/telemetry/truevision_live_20251202_155530.jsonl --out-dir artifacts --metric core_avg_intensity
+
+      - name: Optional: validate artifacts (gated)
+        if: env.RUN_ARTIFACTS == 'true'
+        run: |
+          python -c "import sys,json; from gaming.artifact_validator import validate_baseline_json, validate_diff_json; sys.exit(0 if validate_baseline_json('artifacts/baseline.json') else 2)"
