@@ -69,6 +69,11 @@ Generated from `WORKSPACE INTROSPECTION REPORT-1.md` (Dec 14, 2025)
     - Next step: Create a minimal stub (or remove the reference) and add a test or example.
     - Files: `reflex_telemetry.py`, `README.md`
 
+13. **NetworkLogger integration & tests** (completed)
+    - Change: Added `loggers/network_service.py` and `loggers/network_integration.py`, added unit and smoke tests in `CompuCog_Visual_v2/tests/` and ensured `CognitiveHarness._shutdown()` stops network and process services.
+    - Tests: `test_network_integration_unit.py`, `test_network_integration.py` (both pass locally).
+    - Branch: `feat/network-logger` (pushed to origin)
+
 ---
 
 If you'd like, I can start working on the in-progress task (#1) now and open a PR with the changes. Otherwise I can switch the in-progress item to another task you prefer.
