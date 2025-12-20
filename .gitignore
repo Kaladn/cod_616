@@ -2,3 +2,4 @@
 TruVision_files/forge_data/
 __pycache__/
 *.pyc
+\n# Ignore real telemetry JSONs\ncod_616/data/real/*.json
