@@ -74,6 +74,26 @@ Generated from `WORKSPACE INTROSPECTION REPORT-1.md` (Dec 14, 2025)
     - Tests: `test_network_integration_unit.py`, `test_network_integration.py` (both pass locally).
     - Branch: `feat/network-logger` (pushed to origin)
 
+14. **Vision integration: worker, configs & harness tests** (not-started)
+    - Goal: Add a first-class Vision worker and integration tests so TrueVision capture can run as a managed service under the harness and be exercised in CI.
+    - Next steps:
+      - Add worker: `CompuCog_Visual_v2/gaming/truevision_worker.py` (background capture loop with start/stop API).
+      - Add integration helper: `CompuCog_Visual_v2/gaming/integrate_vision.py` to start worker and register `vision` source in EventManager for testing.
+      - Add configs: `gaming/config/vision.yaml` and add `gaming/config/loggers.yaml` to centralize logger config.
+      - Add tests: harness-level smoke test that instantiates `CognitiveHarness` with a minimal `vision` config and mocks capture to run quickly; unit tests for the worker start/stop and for helper registration.
+      - Add CI stubs to avoid heavy deps (mss/cv2) in CI environment.
+    - Supporting files already in repo (useful foundations):
+      - `CompuCog_Visual_v2/gaming/truevision_event_live.py` (reference capture & processing loop)
+      - `CompuCog_Visual_v2/compositor/eomm_compositor.py` (EOMM composition)
+      - Operators: `operators/crosshair_lock.py`, `operators/hit_registration.py`, `operators/death_event.py`, `operators/edge_entry.py` (detection algorithms)
+      - Frame utilities: `core/frame_to_grid.py`, `core/frame_capture.py` (grid conversion & capture)
+      - Session baseline: `gaming/session_baseline.py`
+      - Fusion & recognition: `modules/fusion_616_engine.py`, `recognition/recognition_field.py`
+      - Event system: `event_system/event_manager.py`, `event_system/chronos_manager.py` (EventManager + Chronos foundations)
+      - Existing logger adapters & helpers: `loggers/*_integration.py` (pattern to follow)
+    - Deliverables:
+      - `truevision_worker.py`, `integrate_vision.py`, config files, unit + smoke tests, and a PR with CI-friendly test stubs.
+
 ---
 
 If you'd like, I can start working on the in-progress task (#1) now and open a PR with the changes. Otherwise I can switch the in-progress item to another task you prefer.
