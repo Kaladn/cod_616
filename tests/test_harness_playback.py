@@ -11,7 +11,7 @@ def test_harness_consumes_playback(tmp_path):
     # Use sample telemetry and feed first few states into the harness
     path = "TruVision_files/telemetry/truevision_live_20251202_155530.jsonl"
 
-    harness = CognitiveHarness(data_dir=str(tmp_path), enable_events=True, event_threshold=0.0, load_operators=False)
+    harness = CognitiveHarness(data_dir=str(tmp_path), enable_events=True, event_threshold=0.0)
 
     count = 0
     try:
