@@ -4,7 +4,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import pytest
 from gaming.truevision_worker import stream_states_from_jsonl
-from CompuCog_Visual_v2.gaming.truevision_event_live import CognitiveHarness
+from TruVision_files.truevision_event_live import CognitiveHarness
 
 
 def test_harness_consumes_playback(tmp_path):

@@ -1,1 +1,1 @@
-from CompuCog_Visual_v2.gaming.truevision_schema import *
+from TruVision_files.truevision_schema import *

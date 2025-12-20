@@ -48,21 +48,16 @@ except Exception:
 
 # Import TrueVision unified schema
 try:
-    # Legacy flat import (works when running scripts)
-    sys.path.insert(0, str(Path(__file__).parent.parent))
     from truevision_schema import OperatorResult, ManipulationFlags
 except Exception:
-    # Package import (works when run as a package)
-    from CompuCog_Visual_v2.gaming.truevision_schema import OperatorResult, ManipulationFlags
+    OperatorResult = None
+    ManipulationFlags = None
 
 # Optional import: support ScreenVectorState frames when available
 try:
-    from CompuCog_Visual_v2.gaming.screen_vector_state import ScreenVectorState
+    from gaming.screen_vector_state import ScreenVectorState  # relative in repo
 except Exception:
-    try:
-        from gaming.screen_vector_state import ScreenVectorState  # relative in repo
-    except Exception:
-        ScreenVectorState = None
+    ScreenVectorState = None
 
 
 @dataclass
