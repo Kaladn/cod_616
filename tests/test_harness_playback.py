@@ -4,6 +4,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import pytest
 from gaming.truevision_worker import stream_states_from_jsonl
+from gaming.truevision_adapter import screen_vector_state_to_window
 from TruVision_files.truevision_event_live import CognitiveHarness
 
 
@@ -16,7 +17,8 @@ def test_harness_consumes_playback(tmp_path):
     count = 0
     try:
         for state in stream_states_from_jsonl(path):
-            harness.process_sve_state(state)
+            window = screen_vector_state_to_window(state)
+            harness.process_window(window)
             count += 1
             if count >= 5:
                 break
