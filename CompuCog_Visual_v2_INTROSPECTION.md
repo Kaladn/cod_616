@@ -1,5 +1,8 @@
 # CompuCog_Visual_v2 — Introspection Report
 
+> **ARCHIVED (2025-12-20):** The `CompuCog_Visual_v2` package has been archived and removed from `main`. A backup branch `backup/pre-removal-compucog_visual_v2` contains the full package if you need to restore or inspect it.
+> Use the canonical TrueVision implementation under `TruVision_files/` and the `gaming/` package for ongoing development.
+
 **Workspace Root:** D:\cod_616\CompuCog_Visual_v2
 **Analysis Date:** December 19, 2025
 

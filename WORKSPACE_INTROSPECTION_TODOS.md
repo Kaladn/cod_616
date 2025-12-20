@@ -70,15 +70,16 @@ Generated from `WORKSPACE INTROSPECTION REPORT-1.md` (Dec 14, 2025)
     - Files: `reflex_telemetry.py`, `README.md`
 
 13. **NetworkLogger integration & tests** (completed)
-    - Change: Added `loggers/network_service.py` and `loggers/network_integration.py`, added unit and smoke tests in `CompuCog_Visual_v2/tests/` and ensured `CognitiveHarness._shutdown()` stops network and process services.
+    - Change: Added `loggers/network_service.py` and `loggers/network_integration.py`, added unit and smoke tests in `gaming/tests/` (legacy `CompuCog_Visual_v2/tests/` archived), and ensured `CognitiveHarness._shutdown()` stops network and process services.
     - Tests: `test_network_integration_unit.py`, `test_network_integration.py` (both pass locally).
     - Branch: `feat/network-logger` (pushed to origin)
 
 14. **Vision integration: worker, configs & harness tests** (not-started)
     - Goal: Add a first-class Vision worker and integration tests so TrueVision capture can run as a managed service under the harness and be exercised in CI.
+    - Note: The legacy package `CompuCog_Visual_v2` has been archived (backup branch `backup/pre-removal-compucog_visual_v2`). Implement the worker and helpers under `gaming/`.
     - Next steps:
-      - Add worker: `CompuCog_Visual_v2/gaming/truevision_worker.py` (background capture loop with start/stop API).
-      - Add integration helper: `CompuCog_Visual_v2/gaming/integrate_vision.py` to start worker and register `vision` source in EventManager for testing.
+      - Add worker: `gaming/truevision_worker.py` (background capture loop with start/stop API).
+      - Add integration helper: `gaming/integrate_vision.py` to start worker and register `vision` source in EventManager for testing.
       - Add configs: `gaming/config/vision.yaml` and add `gaming/config/loggers.yaml` to centralize logger config.
       - Add tests: harness-level smoke test that instantiates `CognitiveHarness` with a minimal `vision` config and mocks capture to run quickly; unit tests for the worker start/stop and for helper registration.
       - Add CI stubs to avoid heavy deps (mss/cv2) in CI environment.

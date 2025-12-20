@@ -238,7 +238,7 @@ self.network_logger_proc.terminate()
 
 #### D. Gamepad Logger Integration
 ```python
-from CompuCog_Visual_v2.loggers.gamepad_logger_continuous import GamepadLogger
+<!-- LEGACY: previously imported from `CompuCog_Visual_v2.loggers.gamepad_logger_continuous` (archived 2025-12-20). Use `CompuCogLogger` and the conversion tool `scripts/convert_gamepad_to_contract.py` for gamepad telemetry. -->
 
 self.gamepad_logger = GamepadLogger(poll_rate=60)
 self.gamepad_logger.start()
@@ -436,8 +436,8 @@ sys.path.insert(0, str(parent_dir / "baselines"))
 
 **FIX:** Use proper package structure:
 ```python
-from CompuCog_Visual_v2.core.frame_to_grid import FrameCapture, FrameToGrid
-from CompuCog_Visual_v2.operators.crosshair_lock import CrosshairLockOperator
+<!-- LEGACY: `frame_to_grid` previously lived under `CompuCog_Visual_v2.core`. The canonical versions live in `gaming/` and `TruVision_files/` now. Refer to `gaming/frame_to_grid.py` or `TruVision_files` utilities. -->
+<!-- LEGACY: `CrosshairLockOperator` previously came from `CompuCog_Visual_v2.operators`. Use `operators/crosshair_lock.py` (refactored into the repo root) or `gaming/` operator implementations. -->
 ```
 
 ---
