@@ -96,4 +96,14 @@ Generated from `WORKSPACE INTROSPECTION REPORT-1.md` (Dec 14, 2025)
 
 ---
 
+**Screen Vector Engine (SVE)** — status: **core implemented, vectors & anomaly metrics implemented, unit tests passing**
+
+Remaining SVE tasks (not-started):
+- **Operator refactor**: refactor operators to consume `ScreenVectorState` fields (start with `crosshair_lock.py`)
+- **TrueVision worker**: add `CompuCog_Visual_v2/gaming/truevision_worker.py` and `integrate_vision.py` helper
+- **Forge schema & capsule buffer**: update Forge schema to support `sve_state` and change 6-1-6 buffer to store `ScreenVectorState` instances
+- **Harness smoke tests & CI stubs**: add tests that instantiate `CognitiveHarness` with a minimal vision config and stub heavy deps (mss, cv2)
+
+If you'd like, I can begin any of the remaining SVE tasks when you say you're ready; I will not prioritize them until you explicitly ask me to.
+
 If you'd like, I can start working on the in-progress task (#1) now and open a PR with the changes. Otherwise I can switch the in-progress item to another task you prefer.
