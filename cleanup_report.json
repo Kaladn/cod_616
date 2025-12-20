@@ -1,0 +1,312 @@
+{
+  "total_py_files": 58,
+  "top_large_files": [
+    {
+      "path": "data\\baseline\\telemetry_20251125_193241.json",
+      "size_bytes": 2352357
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193232.json",
+      "size_bytes": 2313624
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193221.json",
+      "size_bytes": 2280958
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193211.json",
+      "size_bytes": 2255786
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193201.json",
+      "size_bytes": 2217571
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193151.json",
+      "size_bytes": 2184464
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193140.json",
+      "size_bytes": 2152996
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193130.json",
+      "size_bytes": 2121399
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193120.json",
+      "size_bytes": 2092649
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193109.json",
+      "size_bytes": 2067227
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193059.json",
+      "size_bytes": 2040558
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193049.json",
+      "size_bytes": 2012675
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193039.json",
+      "size_bytes": 1982751
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193029.json",
+      "size_bytes": 1953274
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193018.json",
+      "size_bytes": 1925399
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_193008.json",
+      "size_bytes": 1896297
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192958.json",
+      "size_bytes": 1866318
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192948.json",
+      "size_bytes": 1838093
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192937.json",
+      "size_bytes": 1807766
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192927.json",
+      "size_bytes": 1777416
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192917.json",
+      "size_bytes": 1746334
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192907.json",
+      "size_bytes": 1713542
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192857.json",
+      "size_bytes": 1681133
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192846.json",
+      "size_bytes": 1647091
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192836.json",
+      "size_bytes": 1614668
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192826.json",
+      "size_bytes": 1587651
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192816.json",
+      "size_bytes": 1556936
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192806.json",
+      "size_bytes": 1525447
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192755.json",
+      "size_bytes": 1493508
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192745.json",
+      "size_bytes": 1462447
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192735.json",
+      "size_bytes": 1432903
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192725.json",
+      "size_bytes": 1406239
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192715.json",
+      "size_bytes": 1377072
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192705.json",
+      "size_bytes": 1354531
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192654.json",
+      "size_bytes": 1326222
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192644.json",
+      "size_bytes": 1297536
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192634.json",
+      "size_bytes": 1267251
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192624.json",
+      "size_bytes": 1243080
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192614.json",
+      "size_bytes": 1216897
+    },
+    {
+      "path": "data\\baseline\\telemetry_20251125_192604.json",
+      "size_bytes": 1186996
+    }
+  ],
+  "orphan_candidates": [
+    {
+      "path": "chronos_manager.py",
+      "module": "chronos_manager",
+      "stem": "chronos_manager",
+      "references": 0
+    },
+    {
+      "path": "cod_live_runner.py",
+      "module": "cod_live_runner",
+      "stem": "cod_live_runner",
+      "references": 0
+    },
+    {
+      "path": "event_manager.py",
+      "module": "event_manager",
+      "stem": "event_manager",
+      "references": 0
+    },
+    {
+      "path": "inventory.py",
+      "module": "inventory",
+      "stem": "inventory",
+      "references": 0
+    },
+    {
+      "path": "live_forge_harness.py",
+      "module": "live_forge_harness",
+      "stem": "live_forge_harness",
+      "references": 0
+    },
+    {
+      "path": "test_audio_integration.py",
+      "module": "test_audio_integration",
+      "stem": "test_audio_integration",
+      "references": 0
+    },
+    {
+      "path": "test_fusion_audio.py",
+      "module": "test_fusion_audio",
+      "stem": "test_fusion_audio",
+      "references": 0
+    },
+    {
+      "path": "test_match_fingerprint_builder.py",
+      "module": "test_match_fingerprint_builder",
+      "stem": "test_match_fingerprint_builder",
+      "references": 0
+    },
+    {
+      "path": "test_phase_7.py",
+      "module": "test_phase_7",
+      "stem": "test_phase_7",
+      "references": 0
+    },
+    {
+      "path": "test_profile.py",
+      "module": "test_profile",
+      "stem": "test_profile",
+      "references": 0
+    },
+    {
+      "path": "event_system\\__init__.py",
+      "module": "event_system.__init__",
+      "stem": "__init__",
+      "references": 0
+    },
+    {
+      "path": "forge_memory\\__init__.py",
+      "module": "forge_memory.__init__",
+      "stem": "__init__",
+      "references": 0
+    },
+    {
+      "path": "gaming\\artifact_validator.py",
+      "module": "gaming.artifact_validator",
+      "stem": "artifact_validator",
+      "references": 0
+    },
+    {
+      "path": "gaming\\session_schema.py",
+      "module": "gaming.session_schema",
+      "stem": "session_schema",
+      "references": 0
+    },
+    {
+      "path": "gaming\\__init__.py",
+      "module": "gaming.__init__",
+      "stem": "__init__",
+      "references": 0
+    },
+    {
+      "path": "modules\\__init__.py",
+      "module": "modules.__init__",
+      "stem": "__init__",
+      "references": 0
+    },
+    {
+      "path": "tests\\test_harness_playback.py",
+      "module": "tests.test_harness_playback",
+      "stem": "test_harness_playback",
+      "references": 0
+    },
+    {
+      "path": "tests\\test_metrics.py",
+      "module": "tests.test_metrics",
+      "stem": "test_metrics",
+      "references": 0
+    },
+    {
+      "path": "tests\\test_session_diff.py",
+      "module": "tests.test_session_diff",
+      "stem": "test_session_diff",
+      "references": 0
+    },
+    {
+      "path": "tests\\test_session_playback.py",
+      "module": "tests.test_session_playback",
+      "stem": "test_session_playback",
+      "references": 0
+    },
+    {
+      "path": "tests\\test_truevision_adapter.py",
+      "module": "tests.test_truevision_adapter",
+      "stem": "test_truevision_adapter",
+      "references": 0
+    }
+  ],
+  "scripts": [
+    "cod_live_runner.py",
+    "frame_to_grid.py",
+    "match_fingerprint_builder.py",
+    "screen_resonance_state.py",
+    "test_phase_7.py",
+    "CompuCog_Visual_v2\\gaming\\truevision_event_live.py",
+    "examples\\generate_example_artifacts.py",
+    "gaming\\cli.py",
+    "modules\\audio_resonance_state.py",
+    "modules\\fusion_616_engine.py",
+    "modules\\gamepad_capture.py",
+    "modules\\network_telemetry.py",
+    "modules\\screen_grid_mapper.py",
+    "modules\\yolo_detector.py",
+    "recognition\\recognition_cli.py",
+    "recognition\\recognition_field.py"
+  ],
+  "modules_referenced_by_tests_count": 18
+}

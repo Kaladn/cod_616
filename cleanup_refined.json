@@ -1,0 +1,53 @@
+{
+  "total_py_files": 58,
+  "orphan_candidates": [
+    {
+      "path": "chronos_manager.py",
+      "module": "chronos_manager",
+      "stem": "chronos_manager",
+      "references": 0
+    },
+    {
+      "path": "cod_live_runner.py",
+      "module": "cod_live_runner",
+      "stem": "cod_live_runner",
+      "references": 0
+    },
+    {
+      "path": "event_manager.py",
+      "module": "event_manager",
+      "stem": "event_manager",
+      "references": 0
+    },
+    {
+      "path": "live_forge_harness.py",
+      "module": "live_forge_harness",
+      "stem": "live_forge_harness",
+      "references": 0
+    },
+    {
+      "path": "refine.py",
+      "module": "refine",
+      "stem": "refine",
+      "references": 0
+    },
+    {
+      "path": "gaming\\artifact_validator.py",
+      "module": "gaming.artifact_validator",
+      "stem": "artifact_validator",
+      "references": 0
+    },
+    {
+      "path": "gaming\\session_schema.py",
+      "module": "gaming.session_schema",
+      "stem": "session_schema",
+      "references": 0
+    },
+    {
+      "path": "recognition\\recognition_field.py",
+      "module": "recognition.recognition_field",
+      "stem": "recognition_field",
+      "references": 0
+    }
+  ]
+}
