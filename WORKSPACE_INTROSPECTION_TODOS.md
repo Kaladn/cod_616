@@ -107,3 +107,12 @@ Remaining SVE tasks (not-started):
 If you'd like, I can begin any of the remaining SVE tasks when you say you're ready; I will not prioritize them until you explicitly ask me to.
 
 If you'd like, I can start working on the in-progress task (#1) now and open a PR with the changes. Otherwise I can switch the in-progress item to another task you prefer.
+
+---
+
+**Next start point (waiting):** `SVE: Operator refactor to use ScreenVectorState` — *I will not start until you say* **"go"**. When you say "go" I'll: 
+- mark that todo `in-progress` in the TODO tracker, 
+- start refactoring `crosshair_lock.py` to consume `ScreenVectorState`, and
+- add unit tests and a small smoke harness test.
+
+If you'd like me to open a draft PR for the SVE work now, say "open PR" (GH auth required) or push and I can open it for you.
