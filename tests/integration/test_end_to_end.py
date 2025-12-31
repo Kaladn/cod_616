@@ -47,12 +47,19 @@ def test_end_to_end_write_and_query():
         pw = PulseWriter(wp.get_queues(), bl, indexes)
 
         try:
-            # push some records directly to queues
-            for wid in range(4):
-                for j in range(5):
-                    rec = sample_hypothesis(wid)
-                    rec['seq'] = j
-                    wp.put_direct(wid, rec)
+            # make time deterministic for the sample generator so the
+            # test is stable without changing the generator semantics
+            _orig_time = time.time
+            try:
+                time.time = lambda: 123456.0
+                # push some records directly to queues
+                for wid in range(4):
+                    for j in range(5):
+                        rec = sample_hypothesis(wid)
+                        rec['seq'] = j
+                        wp.put_direct(wid, rec)
+            finally:
+                time.time = _orig_time
 
             pw.start()
             time.sleep(0.5)  # let pulse writer flush
