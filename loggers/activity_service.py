@@ -1,75 +1,123 @@
-"""Activity logger service wrapper.
+"""Activity logger — disk-observer implementation.
 
-Provides a simple start/stop wrapper around the existing
-`loggers/activity_logger.py` script. Runs the script in a subprocess
-by default but can be instantiated in "stub" mode for tests.
+This service reads the activity log files on disk and emits events based
+on real filesystem changes. It intentionally does not start subprocesses
+or provide alternate runtime modes.
 """
-from pathlib import Path
-import subprocess
-import sys
-import os
+from __future__ import annotations
+
 import time
 import logging
+from datetime import datetime
+from pathlib import Path
 from typing import Optional
 
-SCRIPT_PATH = Path(__file__).parent / "activity_logger.py"
+IDLE_THRESHOLD_PULSES = 50
+STALL_THRESHOLD_PULSES = 100
+
+
+def get_activity_log_path() -> Path:
+    script_dir = Path(__file__).parent
+    logs_dir = (script_dir / ".." / "logs" / "activity").resolve()
+    today = datetime.now().strftime("%Y%m%d")
+    return logs_dir / f"user_activity_{today}.jsonl"
 
 
 class ActivityService:
     def __init__(self, config_path: Optional[str] = None, use_subprocess: bool = True):
+        # config_path and use_subprocess are accepted for compatibility but ignored
         self.config_path = config_path
         self.use_subprocess = use_subprocess
-        self._proc: Optional[subprocess.Popen] = None
-        self._started = False
+        self._running = False
+
+        self._log_path = get_activity_log_path()
+        self._pulses_unchanged = 0
+        self._last_size: Optional[int] = None
+        self._last_mtime: Optional[float] = None
+        self._current_day = datetime.now().strftime("%Y%m%d")
 
     def start(self) -> None:
-        if self._started:
-            return
-
-        if not self.use_subprocess:
-            # Stub mode (useful for tests)
-            logging.info("[ActivityService] Stub start (no subprocess)")
-            self._started = True
-            return
-
-        if not SCRIPT_PATH.exists():
-            logging.warning(f"[ActivityService] Script not found: {SCRIPT_PATH}")
-            return
-
-        cmd = [sys.executable, str(SCRIPT_PATH)]
-        env = os.environ.copy()
-        if self.config_path:
-            env['COMPUCOG_ACTIVITY_CONFIG'] = str(self.config_path)
-
-        logging.info(f"[ActivityService] Starting subprocess: {cmd}")
-        self._proc = subprocess.Popen(cmd, env=env)
-        # Small wait to allow process to initialize
-        time.sleep(0.1)
-        self._started = True
+        logging.info("[ActivityService] start (disk-observer)")
+        self._running = True
 
     def stop(self) -> None:
-        if not self._started:
-            return
-
-        if not self.use_subprocess:
-            logging.info("[ActivityService] Stub stop")
-            self._started = False
-            return
-
-        if self._proc is not None:
-            logging.info(f"[ActivityService] Terminating subprocess PID={self._proc.pid}")
-            try:
-                self._proc.terminate()
-                self._proc.wait(timeout=1.0)
-            except Exception:
-                try:
-                    self._proc.kill()
-                except Exception:
-                    pass
-                finally:
-                    self._proc = None
-
-        self._started = False
+        logging.info("[ActivityService] stop")
+        self._running = False
 
     def is_running(self) -> bool:
-        return self._started
+        return bool(self._running)
+
+    def _resolve_path(self) -> Path:
+        # Recompute path on day rollover
+        today = datetime.now().strftime("%Y%m%d")
+        if today != self._current_day:
+            self._current_day = today
+            self._last_size = None
+            self._last_mtime = None
+        self._log_path = get_activity_log_path()
+        return self._log_path
+
+    def poll(self) -> Optional[dict]:
+        try:
+            path = self._resolve_path()
+            if not path.exists():
+                self._pulses_unchanged += 1
+                # Emit activity_failed immediately if file missing
+                return {
+                    "event_type": "activity_failed",
+                    "timestamp": time.time(),
+                    "file_path": str(path),
+                    "detail": "file_missing",
+                }
+
+            stat = path.stat()
+            size = stat.st_size
+            mtime = stat.st_mtime
+
+            # first-time observation
+            if self._last_size is None:
+                self._last_size = size
+                self._last_mtime = mtime
+                self._pulses_unchanged = 0
+                return None
+
+            if size > self._last_size or mtime > (self._last_mtime or 0):
+                # Growth detected
+                self._last_size = size
+                self._last_mtime = mtime
+                self._pulses_unchanged = 0
+                return {
+                    "event_type": "activity_detected",
+                    "timestamp": time.time(),
+                    "file_path": str(path),
+                    "file_size": size,
+                    "mtime": mtime,
+                }
+
+            # unchanged
+            self._pulses_unchanged += 1
+            if self._pulses_unchanged >= STALL_THRESHOLD_PULSES:
+                return {
+                    "event_type": "activity_stalled",
+                    "timestamp": time.time(),
+                    "file_path": str(path),
+                    "pulses_unchanged": self._pulses_unchanged,
+                }
+            if self._pulses_unchanged >= IDLE_THRESHOLD_PULSES:
+                return {
+                    "event_type": "activity_idle",
+                    "timestamp": time.time(),
+                    "file_path": str(path),
+                    "pulses_unchanged": self._pulses_unchanged,
+                }
+
+            return None
+        except Exception as exc:
+            logging.warning(f"[ActivityService] poll error: {exc}")
+            return {
+                "event_type": "activity_failed",
+                "timestamp": time.time(),
+                "file_path": str(self._log_path),
+                "detail": "exception",
+                "error": str(exc),
+            }
