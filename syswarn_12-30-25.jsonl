@@ -1,0 +1,5 @@
+{"_sha":"825978e0c06e7a132eedfbab0d2daec4d4bc15c1173830085311e505ced9eaba","avg_daily_usage_bytes":200,"free_bytes":500,"severity":"warning","threshold_bytes":600,"timestamp":"2025-12-30T19:39:27.437697-05:00"}
+{"_sha":"a5c7845f215b3bca608e1530b66d6267b5dad2e819313056a8a131ca8e17df5f","avg_daily_usage_bytes":237,"free_bytes":150,"severity":"critical","threshold_bytes":237,"timestamp":"2025-12-30T19:39:27.540708-05:00"}
+{"_sha":"1b3aac5fc82738b02393e578626465380101f786ccf9190023d4e13eb52dedbd","avg_daily_usage_bytes":308,"free_bytes":150,"severity":"critical","threshold_bytes":308,"timestamp":"2025-12-30T19:39:27.643730-05:00"}
+{"_sha":"0d650c1fba513a7e27bc6c1b07791b43ead566e5688b4d26fa4db0191f46d846","avg_daily_usage_bytes":379,"free_bytes":150,"severity":"critical","threshold_bytes":379,"timestamp":"2025-12-30T19:39:27.745749-05:00"}
+{"_sha":"196b512d3645b3a1297220c9cb2d205c229d3e720b58142e43fb1f470350e036","avg_daily_usage_bytes":450,"free_bytes":150,"severity":"critical","threshold_bytes":450,"timestamp":"2025-12-30T19:39:27.847770-05:00"}
