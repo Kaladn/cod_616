@@ -122,12 +122,12 @@ class PulseBus:
                         'maxlen': self.default_buffer_size
                     }
                 buf = self._buffers[key]
-            # drop newest policy: if buffer full, do not enqueue
+            # drop oldest policy: if buffer full, remove oldest to make room
             with buf['lock']:
                 if len(buf['deque']) >= buf['maxlen']:
+                    buf['deque'].popleft()  # Drop oldest event
                     self.metrics['dropped'] += 1
-                    _logger.warning('Buffer full for %s/%s: dropping newest event', category, prefix)
-                    return
+                    _logger.warning('Buffer full for %s/%s: dropped oldest event', category, prefix)
                 buf['deque'].append(event)
                 self.metrics['published'] += 1
         except Exception:

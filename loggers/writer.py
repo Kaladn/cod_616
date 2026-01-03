@@ -85,7 +85,7 @@ class DailyJSONWriter:
         self.data_root = data_root
         self.pulse_interval = float(pulse_interval)
 
-        self._queue: Queue = Queue()
+        self._queue: Queue = Queue(maxsize=10000)
         self._thread: Optional[threading.Thread] = None
         self._running = False
         self._lock = threading.Lock()
