@@ -1,0 +1,19 @@
+# Hit Registration Operator Configuration
+# Detects ghost bullets and registration anomalies
+
+operators:
+  hit_registration:
+    # Hit marker detection
+    hit_marker_palette: 9
+    hit_marker_region_size: 0.15  # 15% center region
+    
+    # Blood splash detection
+    blood_palette_min: 7
+    blood_palette_max: 8
+    
+    # Kill confirmation
+    kill_confirm_palette: 9
+    
+    # Ghost bullet threshold
+    ghost_threshold: 0.3  # threshold for hit_markers / expected_hits
+    min_hits_for_ghost: 3  # minimum hits to calculate ghost ratio

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "object_type": "FusionInput",
+  "description": "Input specification for 6-1-6 Temporal Fusion Block Builder (6 modalities)",
+  "required": ["session_dir"],
+  "properties": {
+    "session_dir": {
+      "type": "string",
+      "description": "Path to session directory containing TrueVision JSONL logs"
+    },
+    "logs_dir": {
+      "type": ["string", "null"],
+      "default": null,
+      "description": "Separate logs directory for other modalities (CompuCog_Visual_v2 structure)"
+    },
+    "frame_rate": {
+      "type": "number",
+      "default": 60.0,
+      "description": "Expected frame rate for temporal alignment"
+    },
+    "anchor_event_types": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": ["crosshair_lock", "hit_registration", "death_event", "edge_entry", "eomm_peak"],
+      "description": "Event types that trigger block creation"
+    },
+    "output_path": {
+      "type": ["string", "null"],
+      "default": null,
+      "description": "Output path for fusion_blocks.jsonl (defaults to session_dir)"
+    }
+  },
+  "modalities": {
+    "truevision": {
+      "patterns": ["truevision_events.jsonl", "truevision_live_*.jsonl", "truevision_smoke_*.jsonl"],
+      "location": "session_dir",
+      "schema": {
+        "timestamp_field": "window_start_epoch",
+        "required": ["window_start_epoch", "operator_results", "eomm_composite_score"],
+        "optional": ["eomm_flags", "session_id", "frame_count", "metadata"]
+      }
+    },
+    "activity": {
+      "patterns": ["user_activity_*.jsonl", "activity_events.jsonl"],
+      "location": "logs_dir/activity",
+      "schema": {
+        "timestamp_field": "timestamp",
+        "required": ["timestamp", "windowTitle", "processName"],
+        "optional": ["executablePath", "idleSeconds"]
+      }
+    },
+    "gamepad": {
+      "patterns": ["gamepad_stream_*.jsonl", "gamepad_events.jsonl"],
+      "location": "logs_dir/gamepad",
+      "schema": {
+        "timestamp_field": "timestamp",
+        "required": ["timestamp", "event"],
+        "optional": ["button", "axis", "trigger", "state", "value"]
+      }
+    },
+    "input": {
+      "patterns": ["input_activity_*.jsonl", "input_events.jsonl"],
+      "location": "logs_dir/input",
+      "schema": {
+        "timestamp_field": "timestamp",
+        "required": ["timestamp"],
+        "optional": ["keystroke_count", "mouse_click_count", "mouse_movement_distance", "idle_seconds", "audio_active", "camera_active"]
+      }
+    },
+    "network": {
+      "patterns": ["telemetry_*.jsonl", "network_capture_*.jsonl", "network_events.jsonl"],
+      "location": "logs_dir/network",
+      "schema": {
+        "timestamp_field": "Timestamp",
+        "required": ["Timestamp"],
+        "optional": ["LocalAddress", "LocalPort", "RemoteAddress", "RemotePort", "State", "Protocol", "PID", "ProcessName"]
+      }
+    },
+    "process": {
+      "patterns": ["process_activity_*.jsonl", "process_events.jsonl"],
+      "location": "logs_dir/process",
+      "schema": {
+        "timestamp_field": "timestamp",
+        "required": ["timestamp", "pid", "process_name"],
+        "optional": ["command_line", "parent_pid", "origin", "flagged"]
+      }
+    }
+  },
+  "future_modalities": {
+    "audio_game": {
+      "description": "Game audio events (gunfire, explosions)",
+      "status": "planned"
+    },
+    "audio_comms": {
+      "description": "Voice chat activity (not content)",
+      "status": "planned"
+    },
+    "video_index": {
+      "description": "Frame hashes for replay sync",
+      "status": "planned"
+    },
+    "gpu_metrics": {
+      "description": "Frame time, VRAM, utilization",
+      "status": "planned"
+    }
+  }
+}
+  }
+}

@@ -1,0 +1,19 @@
+# Edge Entry Operator Configuration  
+# Detects spawn manipulation and rear-entry patterns
+
+operators:
+  edge_entry:
+    # Edge detection
+    edge_width: 0.15  # 15% edge strips
+    
+    # Enemy detection
+    enemy_palette_min: 5
+    enemy_palette_max: 9
+    
+    # Entry thresholds
+    entry_threshold: 0.05  # 5% enemy presence = entry
+    rear_spawn_threshold: 0.4  # 40% rear entries = manipulation
+    
+    # Pressure calculation
+    high_pressure_rate: 3.0  # entries per minute = high pressure
+    window_duration_sec: 60  # rolling window for pressure calculation
