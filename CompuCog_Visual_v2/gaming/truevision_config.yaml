@@ -1,0 +1,93 @@
+# TrueVision v1.0.0 - Detection Configuration
+# All thresholds and parameters for manipulation detection
+
+# Capture settings (for live frame capture)
+capture:
+  source: "auto"           # auto, mss, opencv
+  region: "full"           # full, center_720p
+  target_fps: 30
+
+# Grid conversion settings
+grid:
+  target_size: 32          # 32x32 ARC grid
+  palette_size: 10         # 0-9 palette values
+
+# Window settings (1-second detection envelope)
+window:
+  duration_ms: 1000
+  target_fps: 30
+  min_frames: 20
+
+# ARC palette ranges (game-specific, tune per title)
+palette:
+  enemy_signature:
+    min: 5
+    max: 9
+  hit_marker: 9
+  damage_splash:
+    min: 7
+    max: 8
+  flinch_indicator:
+    min: 7
+    max: 8
+
+# Screen regions (percentage of screen)
+regions:
+  crosshair_radius: 0.05  # 5% center circle
+  hit_marker_zone: 0.15   # 15% center
+  edge_strips: 0.15       # 15% edges for spawn detection
+
+# Per-operator thresholds
+operators:
+  crosshair_lock:
+    crosshair_radius: 0.05
+    enemy_palette_min: 5
+    enemy_palette_max: 9
+    hit_marker_palette: 9
+    velocity_window: 5
+    aim_resistance_threshold: 0.3
+    hit_efficiency_threshold: 0.15
+    
+  hit_registration:
+    hit_marker_palette: 9
+    hit_marker_region_size: 0.15
+    blood_palette_min: 7
+    blood_palette_max: 8
+    kill_confirm_palette: 9
+    ghost_threshold: 0.3
+    
+  death_event:
+    damage_indicator_palette_min: 7
+    damage_indicator_palette_max: 8
+    edge_width: 0.1
+    death_screen_palette: 9
+    normal_ttd_min: 15
+    instamelt_threshold: 15
+    
+  edge_entry:
+    edge_width: 0.15
+    enemy_palette_min: 5
+    enemy_palette_max: 9
+    entry_threshold: 0.05
+    rear_spawn_threshold: 0.4
+    high_pressure_rate: 3.0
+
+# Session baseline settings
+session_baselines:
+  min_samples_for_warmup: 5
+  outlier_rejection_ttk: 3.0
+  outlier_rejection_ttd: 2.5
+  warmup_duration_sec: 60
+
+# EOMM composite weights (must sum to 1.0)
+eomm_weights:
+  crosshair_lock: 0.30
+  hit_registration: 0.30
+  death_event: 0.25
+  edge_entry: 0.15
+
+# Output settings
+output:
+  telemetry_dir: "telemetry"
+  log_level: "INFO"
+  export_format: "jsonl"

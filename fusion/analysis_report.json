@@ -1,0 +1,1526 @@
+{
+  "analysis_time": "2026-01-03T08:42:11.620254",
+  "blocks_file": "D:\\cod_616\\CompuCog_Visual_v2\\gaming\\telemetry\\fusion_blocks.jsonl",
+  "total_blocks": 178,
+  "modality_coverage": {
+    "total_slices": 2314,
+    "coverage_counts": {
+      "gamepad": 13,
+      "network": 13,
+      "input": 13,
+      "process": 13,
+      "activity": 13,
+      "truevision": 2200
+    },
+    "coverage_pct": {
+      "gamepad": 0.5617977528089888,
+      "network": 0.5617977528089888,
+      "input": 0.5617977528089888,
+      "process": 0.5617977528089888,
+      "activity": 0.5617977528089888,
+      "truevision": 95.0734658599827
+    }
+  },
+  "anchor_events": {
+    "event_distribution": {
+      "crosshair_lock": 69,
+      "death_event": 82,
+      "edge_entry": 27
+    },
+    "eomm_scores": {
+      "count": 178,
+      "mean": 0.7108325363856749,
+      "max": 1.0,
+      "min": 0.17972763613489023
+    },
+    "flags_seen": {
+      "HITBOX_DRIFT": 63,
+      "AIM_RESISTANCE": 35,
+      "INSTA_MELT": 135,
+      "SPAWN_BIAS": 140,
+      "SPAWN_PRESSURE": 12,
+      "INCOMING_DAMAGE_SPIKE": 1
+    }
+  },
+  "temporal_patterns": {
+    "counts": {
+      "precursor_has_input": 1,
+      "precursor_has_network": 1,
+      "consequence_has_network": 1,
+      "consequence_has_input": 1,
+      "full_causality_chain": 1
+    },
+    "percentages": {
+      "precursor_has_input": 0.5617977528089888,
+      "precursor_has_network": 0.5617977528089888,
+      "consequence_has_network": 0.5617977528089888,
+      "consequence_has_input": 0.5617977528089888,
+      "full_causality_chain": 0.5617977528089888
+    },
+    "total_blocks": 178
+  },
+  "network_activity": {
+    "top_processes": {
+      "SystemSettings": 7,
+      "System": 6
+    },
+    "connection_states": {
+      "CloseWait": 7,
+      "Listen": 6
+    },
+    "protocols": {
+      "TCP": 7,
+      "UDP": 6
+    },
+    "top_ports": {
+      "443": 7
+    }
+  },
+  "activity_context": {
+    "apps_in_focus": {
+      "Code.exe": 1
+    },
+    "window_titles": {
+      "stop_all.ps1 - CompuCog_Deployment - Visual Studio": 1
+    }
+  },
+  "anomalies": [
+    {
+      "block_id": "block_000000_crosshair_lock",
+      "anchor_timestamp": 0.0,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000001_crosshair_lock",
+      "anchor_timestamp": 1.0,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    },
+    {
+      "block_id": "block_000002_crosshair_lock",
+      "anchor_timestamp": 2.0,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    },
+    {
+      "block_id": "block_000003_crosshair_lock",
+      "anchor_timestamp": 3.0,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    },
+    {
+      "block_id": "block_000004_crosshair_lock",
+      "anchor_timestamp": 4.0,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    },
+    {
+      "block_id": "block_000005_crosshair_lock",
+      "anchor_timestamp": 5.0,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "HITBOX_DRIFT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    },
+    {
+      "block_id": "block_000006_death_event",
+      "anchor_timestamp": 6.0,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    },
+    {
+      "block_id": "block_000007_death_event",
+      "anchor_timestamp": 7.0,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    },
+    {
+      "block_id": "block_000008_crosshair_lock",
+      "anchor_timestamp": 1764708947.9042244,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000009_death_event",
+      "anchor_timestamp": 1764708962.0453382,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.73",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000010_death_event",
+      "anchor_timestamp": 1764708969.1078875,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.87",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000011_death_event",
+      "anchor_timestamp": 1764708971.4067998,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000012_death_event",
+      "anchor_timestamp": 1764708973.740964,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000013_death_event",
+      "anchor_timestamp": 1764708976.0773249,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000014_death_event",
+      "anchor_timestamp": 1764708978.4112473,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000015_edge_entry",
+      "anchor_timestamp": 1764708980.7410936,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000016_crosshair_lock",
+      "anchor_timestamp": 1764708983.139115,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000017_crosshair_lock",
+      "anchor_timestamp": 1764708985.4874074,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000018_crosshair_lock",
+      "anchor_timestamp": 1764708987.8827882,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000019_death_event",
+      "anchor_timestamp": 1764708990.3219457,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000020_edge_entry",
+      "anchor_timestamp": 1764708992.6783915,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000021_death_event",
+      "anchor_timestamp": 1764708995.0744755,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000022_death_event",
+      "anchor_timestamp": 1764708997.515083,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000023_death_event",
+      "anchor_timestamp": 1764708999.878495,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000024_death_event",
+      "anchor_timestamp": 1764709002.324047,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.96",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000025_edge_entry",
+      "anchor_timestamp": 1764709004.7089744,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000026_death_event",
+      "anchor_timestamp": 1764709007.186047,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000027_death_event",
+      "anchor_timestamp": 1764709009.5219812,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.72",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000028_crosshair_lock",
+      "anchor_timestamp": 1764709011.8734558,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000029_crosshair_lock",
+      "anchor_timestamp": 1764709014.2855196,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000030_death_event",
+      "anchor_timestamp": 1764709016.7286134,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000031_death_event",
+      "anchor_timestamp": 1764709019.1108046,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000032_crosshair_lock",
+      "anchor_timestamp": 1764709021.4894702,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.82",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000033_crosshair_lock",
+      "anchor_timestamp": 1764709023.8860571,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000034_death_event",
+      "anchor_timestamp": 1764709026.2998538,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.78",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000035_death_event",
+      "anchor_timestamp": 1764709028.6603596,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.92",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000036_death_event",
+      "anchor_timestamp": 1764709031.057742,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000037_death_event",
+      "anchor_timestamp": 1764709033.4834387,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.71",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000038_death_event",
+      "anchor_timestamp": 1764709035.8910313,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000039_death_event",
+      "anchor_timestamp": 1764709038.2501385,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000040_crosshair_lock",
+      "anchor_timestamp": 1764709040.6414363,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.71",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000041_death_event",
+      "anchor_timestamp": 1764709043.0374584,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.82",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000042_death_event",
+      "anchor_timestamp": 1764709045.4185781,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.83",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000044_death_event",
+      "anchor_timestamp": 1764709050.156664,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000045_crosshair_lock",
+      "anchor_timestamp": 1764709052.5602512,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.98",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000046_crosshair_lock",
+      "anchor_timestamp": 1764709054.9844508,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000047_crosshair_lock",
+      "anchor_timestamp": 1764709057.3730385,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000048_crosshair_lock",
+      "anchor_timestamp": 1764709059.7346413,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.73",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000049_death_event",
+      "anchor_timestamp": 1764709062.1198027,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.77",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000050_death_event",
+      "anchor_timestamp": 1764709064.485834,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.86",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000051_death_event",
+      "anchor_timestamp": 1764709066.8293908,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000053_crosshair_lock",
+      "anchor_timestamp": 1764709071.5614414,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.93",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000054_crosshair_lock",
+      "anchor_timestamp": 1764709076.3457897,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000055_crosshair_lock",
+      "anchor_timestamp": 1764709078.779703,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.70",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000056_edge_entry",
+      "anchor_timestamp": 1764709081.203031,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000057_edge_entry",
+      "anchor_timestamp": 1764709083.6011505,
+      "event_type": "edge_entry",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00"
+      ]
+    },
+    {
+      "block_id": "block_000058_death_event",
+      "anchor_timestamp": 1764709085.950595,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000059_edge_entry",
+      "anchor_timestamp": 1764709088.3150034,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000060_death_event",
+      "anchor_timestamp": 1764709090.6815016,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000061_death_event",
+      "anchor_timestamp": 1764709093.0590787,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000062_death_event",
+      "anchor_timestamp": 1764709095.4100661,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.96",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000063_death_event",
+      "anchor_timestamp": 1764709097.7425182,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.79",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000064_death_event",
+      "anchor_timestamp": 1764709100.124043,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000065_death_event",
+      "anchor_timestamp": 1764709102.487976,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.91",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000066_death_event",
+      "anchor_timestamp": 1764709104.8218992,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000068_edge_entry",
+      "anchor_timestamp": 1764709111.9498422,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000069_crosshair_lock",
+      "anchor_timestamp": 1764709114.3400576,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000070_crosshair_lock",
+      "anchor_timestamp": 1764709116.6793802,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000071_death_event",
+      "anchor_timestamp": 1764709119.0680788,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.92",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000072_death_event",
+      "anchor_timestamp": 1764709121.432822,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000073_death_event",
+      "anchor_timestamp": 1764709123.7852843,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.81",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000075_death_event",
+      "anchor_timestamp": 1764709133.3493342,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.79",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000076_death_event",
+      "anchor_timestamp": 1764709135.7002525,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000077_death_event",
+      "anchor_timestamp": 1764709138.0463512,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000080_death_event",
+      "anchor_timestamp": 1764709147.5415003,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.81",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000081_death_event",
+      "anchor_timestamp": 1764709149.9818134,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000084_death_event",
+      "anchor_timestamp": 1764709159.501729,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.75",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000085_crosshair_lock",
+      "anchor_timestamp": 1764709161.8778074,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.95",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000087_crosshair_lock",
+      "anchor_timestamp": 1764709168.9418561,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.81",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000088_death_event",
+      "anchor_timestamp": 1764709171.272837,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000089_edge_entry",
+      "anchor_timestamp": 1764709173.6573741,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000090_crosshair_lock",
+      "anchor_timestamp": 1764709176.0059283,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000091_death_event",
+      "anchor_timestamp": 1764709178.353915,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.71",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000092_death_event",
+      "anchor_timestamp": 1764709180.7175353,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.96",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000093_death_event",
+      "anchor_timestamp": 1764709183.1005578,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000094_death_event",
+      "anchor_timestamp": 1764709185.563871,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000095_death_event",
+      "anchor_timestamp": 1764709187.9674423,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.87",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000096_death_event",
+      "anchor_timestamp": 1764709190.331979,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000097_crosshair_lock",
+      "anchor_timestamp": 1764709192.6816287,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000098_crosshair_lock",
+      "anchor_timestamp": 1764709195.046185,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.83",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000099_edge_entry",
+      "anchor_timestamp": 1764709199.7572153,
+      "event_type": "edge_entry",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00"
+      ]
+    },
+    {
+      "block_id": "block_000100_crosshair_lock",
+      "anchor_timestamp": 1764709202.1222615,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.98",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000103_death_event",
+      "anchor_timestamp": 1764709209.19974,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000104_crosshair_lock",
+      "anchor_timestamp": 1764709211.5496078,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000105_crosshair_lock",
+      "anchor_timestamp": 1764709213.9296348,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000106_crosshair_lock",
+      "anchor_timestamp": 1764709216.3176858,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000107_death_event",
+      "anchor_timestamp": 1764709218.6889327,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000108_crosshair_lock",
+      "anchor_timestamp": 1764709221.0554066,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.85",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000109_crosshair_lock",
+      "anchor_timestamp": 1764709223.4108887,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000110_crosshair_lock",
+      "anchor_timestamp": 1764709225.804547,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.81",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000112_crosshair_lock",
+      "anchor_timestamp": 1764709230.5851579,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000113_crosshair_lock",
+      "anchor_timestamp": 1764709233.0058143,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000114_edge_entry",
+      "anchor_timestamp": 1764709235.3523633,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000115_death_event",
+      "anchor_timestamp": 1764709237.6872957,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000116_death_event",
+      "anchor_timestamp": 1764709240.0663745,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000117_crosshair_lock",
+      "anchor_timestamp": 1764709244.8003228,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.93",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000118_death_event",
+      "anchor_timestamp": 1764709247.1855037,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.97",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000119_death_event",
+      "anchor_timestamp": 1764709249.5120656,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000120_death_event",
+      "anchor_timestamp": 1764709251.8755863,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.86",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000121_death_event",
+      "anchor_timestamp": 1764709254.223235,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000122_death_event",
+      "anchor_timestamp": 1764709256.6239226,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000123_crosshair_lock",
+      "anchor_timestamp": 1764709259.0524268,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.98",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000124_crosshair_lock",
+      "anchor_timestamp": 1764709261.4164422,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.70",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000125_crosshair_lock",
+      "anchor_timestamp": 1764709263.8566618,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.83",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000126_death_event",
+      "anchor_timestamp": 1764709266.22617,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.96",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000127_death_event",
+      "anchor_timestamp": 1764709268.6222317,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000128_edge_entry",
+      "anchor_timestamp": 1764709270.9367487,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000129_death_event",
+      "anchor_timestamp": 1764709273.3118694,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.96",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000130_death_event",
+      "anchor_timestamp": 1764709278.072614,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000131_death_event",
+      "anchor_timestamp": 1764709280.4211185,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.91",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000133_crosshair_lock",
+      "anchor_timestamp": 1764709285.1518822,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000134_death_event",
+      "anchor_timestamp": 1764709287.499329,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.75",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000135_death_event",
+      "anchor_timestamp": 1764709289.8969026,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000136_crosshair_lock",
+      "anchor_timestamp": 1764709292.2971246,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.76",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000137_edge_entry",
+      "anchor_timestamp": 1764709297.036191,
+      "event_type": "edge_entry",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000138_death_event",
+      "anchor_timestamp": 1764709304.1362388,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000139_crosshair_lock",
+      "anchor_timestamp": 1764709306.5108845,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.98",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000140_crosshair_lock",
+      "anchor_timestamp": 1764709308.8579087,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000141_crosshair_lock",
+      "anchor_timestamp": 1764709311.1912937,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000142_crosshair_lock",
+      "anchor_timestamp": 1764709313.571259,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000144_crosshair_lock",
+      "anchor_timestamp": 1764709318.3242655,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000145_crosshair_lock",
+      "anchor_timestamp": 1764709320.6803503,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.85",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000146_crosshair_lock",
+      "anchor_timestamp": 1764709323.0302534,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000147_crosshair_lock",
+      "anchor_timestamp": 1764709325.3781083,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000149_crosshair_lock",
+      "anchor_timestamp": 1764709330.0785587,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000151_crosshair_lock",
+      "anchor_timestamp": 1764709334.8060715,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000152_crosshair_lock",
+      "anchor_timestamp": 1764709337.1900742,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.92",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000153_crosshair_lock",
+      "anchor_timestamp": 1764709339.5676942,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000154_crosshair_lock",
+      "anchor_timestamp": 1764709341.935151,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000155_death_event",
+      "anchor_timestamp": 1764709344.2806938,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000156_crosshair_lock",
+      "anchor_timestamp": 1764709346.6296353,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.70",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000157_crosshair_lock",
+      "anchor_timestamp": 1764760135.2574089,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.89",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000158_death_event",
+      "anchor_timestamp": 1764760137.5774267,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000159_crosshair_lock",
+      "anchor_timestamp": 1764760139.9075983,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.89",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000160_crosshair_lock",
+      "anchor_timestamp": 1764760142.250507,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000161_crosshair_lock",
+      "anchor_timestamp": 1764760144.5949247,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000162_crosshair_lock",
+      "anchor_timestamp": 1764760146.9474819,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000163_crosshair_lock",
+      "anchor_timestamp": 1764760149.2584643,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000164_death_event",
+      "anchor_timestamp": 1764760151.5494323,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000165_death_event",
+      "anchor_timestamp": 1764760153.7928915,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000166_crosshair_lock",
+      "anchor_timestamp": 1764760156.0795832,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.89",
+        "INSTA_MELT_DETECTED",
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000167_crosshair_lock",
+      "anchor_timestamp": 1764760158.3716094,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000168_crosshair_lock",
+      "anchor_timestamp": 1764760160.641898,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HITBOX_DRIFT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000169_death_event",
+      "anchor_timestamp": 1764760162.9118638,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.81",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000170_death_event",
+      "anchor_timestamp": 1764760165.1255124,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000171_death_event",
+      "anchor_timestamp": 1764760167.456636,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000172_death_event",
+      "anchor_timestamp": 1764760169.821598,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000173_death_event",
+      "anchor_timestamp": 1764760172.1501634,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000174_death_event",
+      "anchor_timestamp": 1764760174.4906192,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000175_death_event",
+      "anchor_timestamp": 1764760176.8348432,
+      "event_type": "death_event",
+      "issues": [
+        "HIGH_EOMM_SCORE:1.00",
+        "INSTA_MELT_DETECTED"
+      ]
+    },
+    {
+      "block_id": "block_000176_crosshair_lock",
+      "anchor_timestamp": 1764760264.724025,
+      "event_type": "crosshair_lock",
+      "issues": [
+        "HIGH_EOMM_SCORE:0.83",
+        "HITBOX_DRIFT_DETECTED",
+        "LOW_ALIGNMENT:0.09"
+      ]
+    },
+    {
+      "block_id": "block_000177_death_event",
+      "anchor_timestamp": 1764760267.0449345,
+      "event_type": "death_event",
+      "issues": [
+        "INSTA_MELT_DETECTED",
+        "LOW_ALIGNMENT:0.01"
+      ]
+    }
+  ]
+}

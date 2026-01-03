@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "object_type": "FusionBlock",
+  "description": "13-frame multi-modal aligned window (6-1-6 temporal structure)",
+  "required": ["block_id", "anchor_timestamp", "anchor_event_type", "precursor_frames", "anchor_frame", "consequence_frames"],
+  "properties": {
+    "block_id": {
+      "type": "string",
+      "description": "Unique identifier for this block (format: block_NNNNNN_eventtype)"
+    },
+    "anchor_timestamp": {
+      "type": "number",
+      "description": "Monotonic timestamp of the anchor event"
+    },
+    "anchor_event_type": {
+      "type": "string",
+      "enum": ["crosshair_lock", "hit_registration", "death_event", "edge_entry", "eomm_peak"],
+      "description": "Type of event that triggered block creation"
+    },
+    "precursor_frames": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ModalitySlice" },
+      "minItems": 6,
+      "maxItems": 6,
+      "description": "6 frames before anchor event"
+    },
+    "anchor_frame": {
+      "$ref": "#/definitions/ModalitySlice",
+      "description": "The anchor event frame (frame 6 of 13)"
+    },
+    "consequence_frames": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ModalitySlice" },
+      "minItems": 6,
+      "maxItems": 6,
+      "description": "6 frames after anchor event"
+    },
+    "alignment_score": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Cross-modal alignment quality (0-1)"
+    },
+    "modality_coverage": {
+      "type": "object",
+      "description": "Per-modality coverage percentages"
+    },
+    "resonance_coherence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "6-1-6 resonance coherence score (from frequency-domain 616 concept)"
+    },
+    "labels": {
+      "type": "object",
+      "description": "ML training labels"
+    }
+  },
+  "definitions": {
+    "ModalitySlice": {
+      "type": "object",
+      "description": "Single timestamp slice across all modalities",
+      "properties": {
+        "timestamp": { "type": "number" },
+        "frame_index": { "type": "integer", "minimum": 0, "maximum": 12 },
+        "truevision": { "type": ["object", "null"] },
+        "gamepad": { "type": ["object", "null"] },
+        "network": { "type": ["object", "null"] },
+        "input_event": { "type": ["object", "null"] },
+        "process": { "type": ["object", "null"] }
+      }
+    }
+  }
+}

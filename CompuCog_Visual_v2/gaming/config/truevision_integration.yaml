@@ -1,0 +1,83 @@
+# TrueVision Integration Config - Full Cognitive Stack
+# Used by truevision_event_live.py
+
+# Capture settings
+capture:
+  source: "auto"           # auto, mss, opencv
+  region: "full"           # full, center_720p
+  target_fps: 30
+
+# Grid conversion
+grid:
+  target_size: 32          # 32x32 ARC grid
+  palette_size: 10         # 0-9 palette values
+
+# Window settings (for 1-second detection envelopes)
+window:
+  duration_ms: 1000
+  target_fps: 30
+  min_frames: 20
+
+# Forge Memory configuration
+forge:
+  data_dir: "forge_data"
+  pulse_config:
+    max_records_per_pulse: 128
+    max_bytes_per_pulse: 524288  # 512KB
+    max_age_ms_per_pulse: 250
+  engine_version: "truevision_v2.0.0"
+  compositor_version: "eomm_v2.0.0"
+  worker_id: 0
+
+# EventManager configuration
+events:
+  sources:
+    vision:
+      kind: "organ"
+      description: "Visual perception stream"
+    operators:
+      kind: "detector"
+      description: "Manipulation detection operators"
+    session:
+      kind: "tracker"
+      description: "Session lifecycle events"
+  
+  # Event recording thresholds
+  thresholds:
+    high_eomm: 0.7        # Record event when EOMM >= 0.7
+    operator_trigger: true # Record events for all operator detections
+
+# Session baseline tracker
+session_baseline:
+  enabled: true
+  min_samples_for_warmup: 5
+  outlier_rejection_ttk: 3.0
+  outlier_rejection_ttd: 2.5
+  warmup_duration_sec: 60
+
+# Operator configurations
+operators:
+  crosshair_lock:
+    enabled: true
+    config_path: "config/operators/crosshair_lock.yaml"
+  
+  hit_registration:
+    enabled: true
+    config_path: "config/operators/hit_registration.yaml"
+  
+  death_event:
+    enabled: true
+    config_path: "config/operators/death_event.yaml"
+  
+  edge_entry:
+    enabled: true
+    config_path: "config/operators/edge_entry.yaml"
+
+# EOMM Compositor
+eomm:
+  config_path: "config/eomm_compositor.yaml"
+
+# Output
+output:
+  progress_interval_sec: 5  # Print progress every N seconds
+  log_level: "INFO"

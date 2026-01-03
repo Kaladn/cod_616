@@ -1,0 +1,17 @@
+# EOMM Compositor Configuration
+# Matches expected structure from eomm_compositor.py
+
+eomm_composite:
+  # Operator weights (must sum to 1.0)
+  operator_weights:
+    crosshair_lock: 0.30
+    hit_registration: 0.30
+    death_event: 0.25
+    edge_entry: 0.15
+  
+  # Score thresholds
+  manipulation_threshold: 0.5    # Above this = manipulation detected
+  high_confidence_threshold: 0.75  # Above this = high confidence detection
+  
+  # Composite calculation
+  require_min_operators: 2  # Minimum operators with data for composite
